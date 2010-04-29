@@ -1,0 +1,5 @@
+Copy the files from the app bundle into the folders
+as listed by the <foldername>.txt file.
+
+In example, copy all the items list in Audio.txt
+into the Audio folder.
