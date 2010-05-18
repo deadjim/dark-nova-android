@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  
+<Button android:text="Buy Cargo" 
+android:id="@+id/Button01" 
+android:height="15dp"
+android:width="110dp"
+android:layout_marginTop="30dp"
+android:layout_marginLeft="100dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+<Button android:text="Buy Equipment" 
+android:id="@+id/Button02" 
+android:height="25dp"
+android:width="110dp"
+android:layout_marginLeft="100dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+<Button android:text="Sell Equipment" 
+android:id="@+id/Button03" 
+android:layout_marginLeft="100dp"
+android:height="25dp"
+android:width="110dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+<Button android:text="Personel Rosta" 
+android:id="@+id/Button04" 
+android:layout_marginLeft="100dp"
+android:height="25dp"
+android:width="110dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+<Button android:text="Bank" 
+android:id="@+id/Button05" 
+android:height="25dp"
+android:width="110dp"
+android:layout_marginLeft="100dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+<Button android:text="Command Status" 
+android:id="@+id/Button06" 
+android:height="20dp"
+android:width="110dp"
+android:layout_marginLeft="100dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+<Button android:text="Glactic Chart"
+ android:id="@+id/Button07"
+ android:height="25dp"
+ android:width="110dp"
+ android:layout_marginLeft="100dp"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"></Button>
+
+
+</LinearLayout>
