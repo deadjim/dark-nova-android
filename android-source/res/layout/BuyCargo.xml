@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Button01"
+android:layout_width="75dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Pulse Laser" 
+android:id="@+id/TextView01"
+ android:textSize="14dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="75dp" 
+android:layout_height="40dp"></TextView>
+ 
+ <Button android:text="not sold" 
+ android:id="@+id/Button11" 
+android:layout_marginLeft="81dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></Button>
+ 
+ 
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Button02"
+android:layout_width="75dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Regolian disrupter" 
+android:id="@+id/TextView02"
+android:textSize="14dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="not sold" 
+ android:id="@+id/Button12" 
+android:layout_marginLeft="39dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></Button>
+ 
+ 
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Button03"
+android:layout_width="75dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Justice Mkv" 
+android:id="@+id/TextView03"
+ android:textSize="14dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="not sold" 
+ android:id="@+id/Button13" 
+android:layout_marginLeft="85dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></Button>
+ 
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Button04"
+android:layout_width="75dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Energy sheild" 
+android:id="@+id/TextView04"
+ android:textSize="14dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="not sold" 
+ android:id="@+id/Button14" 
+android:layout_marginLeft="71dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></Button>
+ 
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Button05"
+android:layout_width="75dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Reflective sheild" 
+android:id="@+id/TextView05"
+ android:textSize="14dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="not sold" 
+ android:id="@+id/Button15" 
+android:layout_marginLeft="52dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></Button>
+ 
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Button06"
+android:layout_width="75dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Extra Cargo" 
+android:id="@+id/TextView06"
+ android:textSize="14dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="not sold" 
+ android:id="@+id/Button16" 
+ android:layout_marginLeft="85dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></Button>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Button07"
+android:layout_width="75dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Auto Repair system" 
+android:id="@+id/TextView07"
+ android:textSize="14dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+<Button android:text="not sold" 
+ android:id="@+id/Button17" 
+android:layout_marginLeft="40dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></Button>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Button08"
+android:layout_width="75dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Manipulation system" 
+android:id="@+id/TextView08"
+ android:textSize="14dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="not sold" 
+ android:id="@+id/Button18" 
+ android:layout_marginLeft="12dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></Button>
+ 
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Button09"
+android:layout_width="75dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Target System" 
+android:id="@+id/TextView09"
+ android:textSize="14dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="not sold" 
+ android:id="@+id/Button19" 
+android:layout_marginLeft="30dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></Button>
+ 
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Button10"
+android:layout_width="75dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Cloaking Device" 
+android:id="@+id/TextView10"
+ android:textSize="14dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Info" 
+ android:id="@+id/Button20" 
+ android:layout_marginLeft="170dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></Button>
+ 
+ 
+</LinearLayout>
+
+
+ 
+</LinearLayout>
