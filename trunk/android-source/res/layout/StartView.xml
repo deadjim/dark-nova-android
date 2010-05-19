@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+  
+<TextView android:text="Difficulty" 
+android:id="@+id/TextView01" 
+android:layout_marginLeft="30dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></TextView>
+
+<Button android:text="-" 
+android:id="@+id/Button01"
+android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></Button>
+ 
+<TextView android:text="Normal" 
+android:id="@+id/TextView02" 
+android:layout_marginLeft="20dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></TextView>
+
+<Button android:text="+" 
+android:id="@+id/Button02" 
+android:layout_marginLeft="20dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+<TextView android:text="Skill point" 
+android:id="@+id/TextView03" 
+android:layout_marginLeft="30dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></TextView>
+
+<EditText android:text="15" 
+android:id="@+id/EditText01" 
+android:layout_marginLeft="16dp"
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"></EditText>
+ </LinearLayout>
+ 
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<TextView android:text="Pilot" 
+android:id="@+id/TextView04" 
+android:layout_marginLeft="30dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></TextView>
+
+<Button android:text="-" 
+android:id="@+id/Button03" 
+android:layout_marginLeft="48dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+<TextView android:text="1" 
+android:id="@+id/TextView05" 
+android:layout_marginLeft="35dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></TextView>
+
+<Button android:text="+"
+ android:id="@+id/Button04" 
+ android:layout_marginLeft="45dp"
+  android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></Button>
+ </LinearLayout>
+ 
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+<TextView android:text="Fighter"
+android:layout_marginLeft="30dp"
+ android:id="@+id/TextView06" 
+ android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  </TextView>
+  
+<Button android:text="-" 
+android:id="@+id/Button05" 
+ android:layout_marginLeft="33dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</Button>
+
+<TextView android:text="1"
+ android:id="@+id/TextView07"
+ android:layout_marginLeft="35dp"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content">
+  </TextView>
+
+<Button android:text="+" 
+android:id="@+id/Button06" 
+android:layout_marginLeft="45dp"
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content">
+ </Button>
+
+</LinearLayout>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+
+
+<TextView android:text="Trader"
+ android:id="@+id/TextView08"
+ android:layout_marginLeft="30dp"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content">
+   </TextView>
+   
+   
+<Button android:text="-" 
+android:id="@+id/Button07" 
+android:layout_marginLeft="35dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</Button>
+
+<TextView android:text="1"
+ android:id="@+id/TextView09"
+ android:layout_marginLeft="35dp"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content">
+  </TextView>
+  
+  <Button android:text="+"
+  android:id="@+id/Button08" 
+  android:layout_marginLeft="45dp"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"></Button>
+  
+  
+</LinearLayout>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+<TextView android:text="Engineer" 
+android:id="@+id/TextView10" 
+android:layout_marginLeft="30dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+android:id="@+id/Button09" 
+android:layout_marginLeft="21dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</Button>
+
+<TextView android:text="1"
+ android:id="@+id/TextView11"
+ android:layout_marginLeft="35dp"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content">
+   </TextView>
+   
+<Button android:text="+" 
+android:id="@+id/Button10" 
+android:layout_marginLeft="45dp"
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content">
+ </Button>
+</LinearLayout>
+</LinearLayout>
