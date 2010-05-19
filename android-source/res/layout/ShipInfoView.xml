@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+
+<Button android:text="Name" 
+android:id="@+id/Button01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+<Button android:text="Size" 
+android:id="@+id/Button02" 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"></Button>
+
+<Button android:text="Cargo Bays" 
+android:id="@+id/Button03" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+<Button android:text="Range" 
+android:id="@+id/Button04"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+<Button android:text="Full strength"
+android:id="@+id/Button05" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+ 
+<Button android:text="Weapon Slots"
+android:id="@+id/Button06" 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"></Button>
+
+<Button android:text="Gadget slots" 
+android:id="@+id/Button07" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+<Button android:text="Crew Quatities" 
+android:id="@+id/Button08" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+<Button android:text="Ship for Sale"
+android:id="@+id/Button09"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

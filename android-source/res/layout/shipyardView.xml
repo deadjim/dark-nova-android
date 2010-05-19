@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+<TextView android:text="You have fuel to fly 1 parsec a full tank costs 26 cr"
+ android:id="@+id/TextView01" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginTop="20dp"
+ android:layout_marginLeft="20dp" ></TextView>
+ 
+ <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+ 
+  <Button android:text="Buy Fuel"  
+      android:id="@+id/Button01"
+      android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="30dp"
+     android:height="20dp"
+    android:width="120dp"></Button>
+  
+<Button android:text="Full tank"
+ android:id="@+id/Button02"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="5dp"
+ android:height="30dp"
+ android:width="120dp" ></Button>
+
+
+</LinearLayout>
+ 
+
+<TextView android:text="Fuel Strength 100% No repairs needed"
+ android:id="@+id/TextView02" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginTop="20dp"
+ android:layout_marginLeft="20dp" ></TextView>
+ 
+ <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+ <Button android:text="Repair"  
+      android:id="@+id/Button03"
+      android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="30dp"
+     android:height="20dp"
+    android:width="120dp"></Button>
+    
+    <Button android:text="Full Repair"  
+      android:id="@+id/Button04"
+      android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="22dp"
+     android:height="20dp"
+    android:width="120dp"></Button>
+</LinearLayout>
+
+<TextView android:text="There are new ships for sale"
+ android:id="@+id/TextView03" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginTop="20dp"
+ android:layout_marginLeft="20dp" ></TextView>
+ 
+  <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+  <Button android:text="Buy New Ship"  
+      android:id="@+id/Button05"
+      android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="30dp"
+     android:height="20dp"
+    android:width="120dp"></Button>
+    
+    <Button android:text="Ship Info"  
+      android:id="@+id/Button06"
+      android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="25dp"
+     android:height="20dp"
+    android:width="120dp"></Button>
+  </LinearLayout>
+  
+  <TextView android:text="You need 2000 cr for Escape pad"
+ android:id="@+id/TextView03" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginTop="20dp"
+ android:layout_marginLeft="20dp" ></TextView>
+
+ <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+  <Button android:text="Buy Escape Pad"  
+      android:id="@+id/Button04"
+      android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="30dp"
+     android:height="20dp"
+    android:width="120dp"></Button>
+    
+ </LinearLayout>
+</LinearLayout>

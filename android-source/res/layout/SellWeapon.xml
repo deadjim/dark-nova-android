@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+  <Button android:text="Sell"  
+   android:id="@+id/Button01"
+   android:layout_marginTop="20dp"
+   android:layout_marginLeft="30dp"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:height="30dp"
+ android:width="70dp"></Button>
+    
+<TextView android:text="Weapon no"
+ android:id="@+id/TextView01" 
+ android:layout_marginTop="20dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+<Button android:text="Price"
+ android:id="@+id/Button02"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="20dp"
+ android:height="30dp"
+ android:width="70dp"
+ 
+ ></Button>
+
+</LinearLayout>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+  <Button android:text="Sell"  
+   android:id="@+id/Button03"
+   android:layout_marginTop="20dp"
+   android:layout_marginLeft="30dp"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:height="30dp"
+ android:width="70dp"></Button>
+    
+<TextView android:text="Weapon no"
+ android:id="@+id/TextView02" 
+ android:layout_marginTop="20dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+<Button android:text="Price"
+ android:id="@+id/Button04"
+android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="20dp"
+ android:height="30dp"
+ android:width="70dp"
+ ></Button>
+
+</LinearLayout>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+  <Button android:text="Sell"  
+   android:id="@+id/Button05"
+   android:layout_marginTop="20dp"
+  android:layout_marginLeft="30dp"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:height="30dp"
+ android:width="70dp"></Button>
+    
+<TextView android:text="Weapon no"
+ android:id="@+id/TextView03" 
+ android:layout_marginTop="20dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+<Button android:text="Price"
+ android:id="@+id/Button06"
+android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="20dp"
+ android:height="30dp"
+ android:width="70dp"
+ ></Button>
+
+</LinearLayout>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+  <Button android:text="Sell"  
+   android:id="@+id/Button07"
+   android:layout_marginTop="20dp"
+    android:layout_marginLeft="30dp"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:height="30dp"
+ android:width="70dp"></Button>
+    
+<TextView android:text="Weapon no"
+ android:id="@+id/TextView04" 
+ android:layout_marginTop="20dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+<Button android:text="Price"
+ android:id="@+id/Button08"
+android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="20dp"
+ android:height="30dp"
+ android:width="70dp"
+ ></Button>
+
+</LinearLayout>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+  <Button android:text="Sell"  
+   android:id="@+id/Button09"
+   android:layout_marginTop="20dp"
+   android:layout_marginLeft="30dp"
+   
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:height="30dp"
+ android:width="70dp"></Button>
+    
+<TextView android:text="Weapon no"
+ android:id="@+id/TextView05" 
+ android:layout_marginTop="20dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+<Button android:text="Price"
+ android:id="@+id/Button10"
+android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="20dp"
+ android:height="30dp"
+ android:width="70dp"
+ ></Button>
+
+</LinearLayout>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+  <Button android:text="Sell"  
+   android:id="@+id/Button11"
+   android:layout_marginTop="20dp"
+   android:layout_marginLeft="30dp"
+   
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:height="30dp"
+ android:width="70dp"></Button>
+    
+<TextView android:text="Weapon no"
+ android:id="@+id/TextView06" 
+ android:layout_marginTop="20dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+<Button android:text="Price"
+ android:id="@+id/Button12"
+android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="20dp"
+ android:height="30dp"
+ android:width="70dp"
+ ></Button>
+
+</LinearLayout>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+  <Button android:text="Sell"  
+   android:id="@+id/Button13"
+   android:layout_marginTop="20dp"
+   android:layout_marginLeft="170dp"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:height="30dp"
+ android:width="70dp"></Button>
+    
+<TextView android:text="Weapon no"
+ android:id="@+id/TextView07" 
+ android:layout_marginTop="20dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+<Button android:text="Price"
+ android:id="@+id/Button14"
+android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="20dp"
+ android:height="30dp"
+ android:width="70dp"
+ ></Button>
+
+</LinearLayout>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+  <Button android:text="Sell"  
+   android:id="@+id/Button15"
+   android:layout_marginTop="20dp"
+    android:layout_marginLeft="30dp"
+   
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:height="30dp"
+ android:width="70dp"></Button>
+    
+<TextView android:text="Weapon"
+ android:id="@+id/TextView08" 
+ android:layout_marginTop="20dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+<Button android:text="Price"
+ android:id="@+id/Button16"
+android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="20dp"
+ android:height="30dp"
+ android:width="70dp"
+ ></Button>
+
+</LinearLayout>
+
+
+</LinearLayout>

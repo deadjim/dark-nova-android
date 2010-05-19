@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+    
+
+<TextView android:text="High Score"
+android:layout_marginLeft="150dp"
+android:layout_marginTop="10dp"
+ android:id="@+id/TextView01"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"></TextView>
+   
+  
+  
+ <TextView android:text="California"
+  android:id="@+id/TextView02" 
+  android:layout_marginLeft="20dp"
+  android:layout_marginTop="5dp"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"></TextView>
+     
+<TextView android:text="Cupertino" 
+android:id="@+id/TextView03"
+android:layout_marginLeft="40dp"
+android:layout_marginTop="5dp"
+ android:layout_width="wrap_content"
+  android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Glendale"
+ android:id="@+id/TextView04" 
+ android:layout_marginTop="5dp"
+ android:layout_marginLeft="40dp"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Los Angeles"
+ android:id="@+id/TextView05"
+ android:layout_marginLeft="40dp"
+ android:layout_marginTop="5dp"
+ android:layout_width="wrap_content"
+  android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Palo Alto"
+ android:id="@+id/TextView06"
+  android:layout_width="wrap_content"
+  android:layout_marginLeft="40dp"
+  android:layout_marginTop="5dp"
+   android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="New York"
+ android:id="@+id/TextView07"
+ android:layout_width="wrap_content"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="5dp"
+  android:layout_height="wrap_content"></TextView>
+  
+  
+<TextView android:text="ABC"
+ android:id="@+id/TextView08"
+ android:layout_marginLeft="40dp"
+ android:layout_marginTop="5dp" 
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"></TextView>
+   
+<TextView android:text="Buffalo"
+ android:id="@+id/TextView09"
+ android:layout_marginLeft="40dp"
+ android:layout_marginTop="5dp"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"></TextView>
+
+
+<TextView android:text="New York City"
+ android:id="@+id/TextView10" 
+ android:layout_width="wrap_content" 
+ android:layout_marginLeft="40dp"
+ android:layout_marginTop="5dp"
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
