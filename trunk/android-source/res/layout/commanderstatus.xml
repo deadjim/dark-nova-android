@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/commanderstatus"
+    >
+    
+    
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Commander Status"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="10dp"
+    android:textSize="15dp"
+    />
+   
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp">
+    
+    
+<TextView 
+android:text="Name :" 
+android:id="@+id/TextView01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView 
+android:text="Johansen" 
+android:id="@+id/TextView02" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="30dp">
+</TextView>
+
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp">
+
+<TextView 
+android:text="Pilot :" 
+android:id="@+id/TextView03" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView 
+android:text="6[6]" 
+android:id="@+id/TextView04" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="37dp">
+
+</TextView>
+
+<TextView 
+android:text="Kills :" 
+android:id="@+id/TextView05" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="20dp">
+</TextView>
+
+<TextView 
+android:text="0" 
+android:id="@+id/TextView06" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="20dp">
+
+</TextView>
+
+</LinearLayout>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp">
+    
+<TextView 
+android:text="Fighter :" 
+android:id="@+id/TextView07" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="6[6]" 
+android:id="@+id/TextView08" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="23dp">
+</TextView>
+
+<TextView 
+android:text="Time :" 
+android:id="@+id/TextView09" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="20dp">
+</TextView>
+
+<TextView 
+android:text="0 days" 
+android:id="@+id/TextView10" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="15dp">
+</TextView>
+
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp">
+
+<TextView android:text="Trader :" 
+android:id="@+id/TextView11" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="5[5]" 
+android:id="@+id/TextView12" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="28dp">
+</TextView>
+
+<TextView 
+android:text="Cash :" 
+android:id="@+id/TextView13" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="19dp">
+</TextView>
+
+<TextView 
+android:text="2500 cr" 
+android:id="@+id/TextView14" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="18dp">
+</TextView>
+
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp">
+    
+<TextView 
+android:text="Engineer :" 
+android:id="@+id/TextView15" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView 
+android:text="3[3]" 
+android:id="@+id/TextView16" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="13dp">
+</TextView>
+
+<TextView 
+android:text="Debt :" 
+android:id="@+id/TextView17" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="20dp">
+</TextView>
+
+<TextView 
+android:text="0 cr" 
+android:id="@+id/TextView18" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="17dp">
+</TextView>
+
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp">
+    
+<TextView 
+android:text="Net Worth :" 
+android:id="@+id/TextView19" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView 
+android:text="8125 cr" 
+android:id="@+id/TextView20" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="70dp">
+</TextView>
+
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp">
+    
+<TextView 
+android:text="Reputation :" 
+android:id="@+id/TextView21" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView 
+android:text="Harmless" 
+android:id="@+id/TextView22" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="67dp">
+</TextView>
+
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp">
+    
+<TextView 
+android:text="Transport License :" 
+android:id="@+id/TextView23" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView 
+android:text="Invalid" 
+android:id="@+id/TextView24" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="23dp">
+</TextView>
+
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp">
+    
+<TextView 
+android:text="Passengers :" 
+android:id="@+id/TextView25" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="0" 
+android:id="@+id/TextView26" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="10dp">
+</TextView>
+
+<TextView 
+android:text="PEP :" 
+android:id="@+id/TextView27" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="60dp">
+</TextView>
+
+<TextView 
+android:text="0" 
+android:id="@+id/TextView28" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="10dp">
+</TextView>
+
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp">
+    
+<TextView 
+android:text="Police Record :" 
+android:id="@+id/TextView29" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="Clean" 
+android:id="@+id/TextView30" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="49dp">
+</TextView>
+
+</LinearLayout>
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp">
+    
+<TextView 
+android:text="Difficulty :" 
+android:id="@+id/TextView31" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView 
+android:text="Normal" 
+android:id="@+id/TextView32" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="80dp">
+</TextView>
+
+</LinearLayout>
+
+<Button 
+android:text="Commanders Log" 
+android:id="@+id/Button01" 
+android:height="20dp"
+android:width="100dp"
+android:layout_width="100dp" 
+android:layout_height="30dp"
+android:layout_marginLeft="100dp"
+android:textSize="10dp"
+android:background="#00FF00">
+</Button>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_marginTop="55dp"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  
+
+<Button 
+android:text="status" 
+android:id="@+id/status01" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp">
+ </Button>
+<Button android:text="Quests" 
+android:id="@+id/quests01"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="cargo" 
+android:id="@+id/cargo01"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="shipinfo" 
+android:id="@+id/shipinfo01" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+<Button android:text="GPTA" 
+android:id="@+id/gpta01" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+
+</LinearLayout>
+
+</LinearLayout>

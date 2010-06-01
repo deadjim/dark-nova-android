@@ -3,7 +3,7 @@
 <LinearLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:orientation="vertical"
-  android:background="@drawable/buycargo"
+  android:background="@drawable/buyequip"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent">
 
@@ -16,35 +16,27 @@
   android:layout_height="wrap_content">
     
 <Button android:text="Buy" 
-android:id="@+id/Button01"
+android:id="@+id/ButtonBuyPulse"
 android:layout_marginLeft="20dp"
 android:layout_marginTop="05dp"
-android:background="#FF0000"
 android:layout_width="60dp" 
-android:layout_height="30dp"
+android:layout_height="40dp"
+android:visibility="invisible"
 ></Button>
 
-<TextView android:text="Water" 
+<TextView android:text="Pulse laser" 
 android:id="@+id/TextView01"
  android:layout_marginLeft="20dp"
  android:layout_marginTop="05dp"
  android:textSize="15dp"
- android:textColor="#FFFFFF"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
  
- <Button android:text="max" 
-android:id="@+id/Button11"
-android:layout_marginLeft="30dp"
-android:layout_marginTop="05dp"
-android:background="#0000FF"
-android:layout_width="60dp" 
-android:layout_height="30dp"
-></Button>
+ 
 
-<TextView android:text="40" 
+<TextView android:text="not sold" 
 android:id="@+id/TextView11"
- android:layout_marginLeft="35dp"
+ android:layout_marginLeft="65dp"
  android:layout_marginTop="05dp"
  android:textSize="15dp"
  android:textColor="#FFFFFF"
@@ -60,15 +52,15 @@ android:id="@+id/TextView11"
   android:layout_height="wrap_content">
     
 <Button android:text="Buy" 
-android:id="@+id/Button02"
-android:background="#FF0000"
+android:id="@+id/ButtonBuyDisrupter"
+android:visibility="invisible"
 android:layout_marginLeft="20dp"
 android:layout_marginTop="05dp"
 android:layout_width="60dp" 
-android:layout_height="30dp"
+android:layout_height="40dp"
 ></Button>
 
-<TextView android:text="Food" 
+<TextView android:text="Disrupter" 
 android:id="@+id/TextView02"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
@@ -77,20 +69,13 @@ android:layout_marginTop="05dp"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
  
- <Button android:text="Max" 
-android:id="@+id/Button12"
-android:background="#0000FF"
-android:layout_marginLeft="37dp"
-android:layout_marginTop="05dp"
-android:layout_width="60dp" 
-android:layout_height="30dp"
-></Button>
+ 
 
-<TextView android:text="107" 
+<TextView android:text="not sold" 
 android:id="@+id/TextView12"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
- android:layout_marginLeft="35dp"
+ android:layout_marginLeft="74dp"
 android:layout_marginTop="05dp"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
@@ -103,33 +88,26 @@ android:layout_marginTop="05dp"
   android:layout_height="wrap_content">
     
 <Button android:text="Buy" 
-android:id="@+id/Button03"
-android:background="#FF0000"
+android:id="@+id/ButtonJustice"
 android:layout_marginLeft="20dp"
 android:layout_marginTop="05dp"
 android:layout_width="60dp" 
-android:layout_height="30dp"
+android:layout_height="40dp"
+android:visibility="invisible"
 ></Button>
 
-<TextView android:text="Furs" 
+<TextView android:text="Justice Mark IV" 
 android:id="@+id/TextView03"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
-android:layout_marginLeft="20dp"
+android:layout_marginLeft="23dp"
 android:layout_marginTop="05dp"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
  
- <Button android:text="Max" 
-android:id="@+id/Button13"
-android:background="#0000FF"
-android:layout_marginLeft="42dp"
-android:layout_marginTop="05dp"
-android:layout_width="60dp" 
-android:layout_height="30dp"
-></Button>
  
- <TextView android:text="274" 
+ 
+ <TextView android:text="not sold" 
 android:id="@+id/TextView13"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
@@ -146,15 +124,15 @@ android:layout_marginTop="05dp"
   android:layout_height="wrap_content">
     
 <Button android:text="Buy" 
-android:id="@+id/Button04"
-android:background="#FF0000"
+android:id="@+id/ButtonEnergy"
+android:visibility="invisible"
 android:layout_marginLeft="20dp"
 android:layout_marginTop="05dp"
 android:layout_width="60dp" 
-android:layout_height="30dp"
+android:layout_height="40dp"
 ></Button>
 
-<TextView android:text="Ore" 
+<TextView android:text="Energy shield" 
 android:id="@+id/TextView04"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
@@ -163,20 +141,13 @@ android:layout_marginTop="5dp"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
  
- <Button android:text="max" 
-android:id="@+id/Button14"
-android:background="#0000FF"
-android:layout_marginLeft="46dp"
-android:layout_marginTop="05dp"
-android:layout_width="60dp" 
-android:layout_height="30dp"
-></Button>
+ 
 
-<TextView android:text="423" 
+<TextView android:text="not sold" 
 android:id="@+id/TextView14"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
- android:layout_marginLeft="35dp"
+ android:layout_marginLeft="40dp"
 android:layout_marginTop="15dp"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
@@ -189,37 +160,30 @@ android:layout_marginTop="15dp"
   android:layout_height="wrap_content">
     
 <Button android:text="Buy" 
-android:id="@+id/Button05"
-android:background="#FF0000"
+android:id="@+id/ButtonReflection"
 android:layout_marginLeft="20dp"
 android:layout_marginTop="05dp"
 android:layout_width="60dp" 
-android:layout_height="30dp"
+android:layout_height="40dp"
+android:visibility="invisible"
 ></Button>
 
-<TextView android:text="Games" 
+<TextView android:text="Reflection Shield" 
 android:id="@+id/TextView05"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
- android:layout_marginLeft="13dp"
+ android:layout_marginLeft="20dp"
 android:layout_marginTop="05dp"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
  
- <Button android:text="Buy" 
-android:id="@+id/Button15"
-android:background="#0000FF"
-android:layout_marginLeft="32dp"
-android:layout_marginTop="05dp"
-android:layout_width="60dp" 
-android:layout_height="30dp"
-></Button>
+ 
 
-<TextView android:text="109" 
+<TextView android:text="not sold" 
 android:id="@+id/TextView05"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
- android:layout_marginLeft="35dp"
+ android:layout_marginLeft="25dp"
 android:layout_marginTop="05dp"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
@@ -231,15 +195,15 @@ android:layout_marginTop="05dp"
   android:layout_height="wrap_content">
     
 <Button android:text="Buy" 
-android:id="@+id/Button06"
-android:background="#FF0000"
+android:id="@+id/Button5extracargo"
+
 android:layout_marginLeft="20dp"
 android:layout_marginTop="05dp"
 android:layout_width="60dp" 
-android:layout_height="30dp"
+android:layout_height="40dp"
 ></Button>
 
-<TextView android:text="Firearms" 
+<TextView android:text="5 Extra cargo bays" 
 android:id="@+id/TextView06"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
@@ -248,20 +212,13 @@ android:layout_marginTop="05dp"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
  
- <Button android:text="Max" 
-android:id="@+id/Button16"
-android:background="#FF0000"
-android:layout_marginLeft="14dp"
-android:layout_marginTop="05dp"
-android:layout_width="60dp" 
-android:layout_height="30dp"
-></Button>
+ 
 
-<TextView android:text="1009" 
+<TextView android:text="not sold" 
 android:id="@+id/TextView16"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
- android:layout_marginLeft="35dp"
+ android:layout_marginLeft="16dp"
 android:layout_marginTop="05dp"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
@@ -274,15 +231,15 @@ android:layout_marginTop="05dp"
   android:layout_height="wrap_content">
     
 <Button android:text="Buy" 
-android:id="@+id/Button07"
-android:background="#FF0000"
+android:id="@+id/ButtonAuto"
+android:visibility="invisible"
 android:layout_marginLeft="20dp"
 android:layout_marginTop="05dp"
 android:layout_width="60dp" 
-android:layout_height="30dp"
+android:layout_height="40dp"
 ></Button>
 
-<TextView android:text="Medicine" 
+<TextView android:text="Auto Repair System" 
 android:id="@+id/TextView07"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
@@ -296,7 +253,7 @@ android:layout_marginTop="05dp"
 android:id="@+id/TextView07"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
- android:layout_marginLeft="105dp"
+ android:layout_marginLeft="16dp"
 android:layout_marginTop="05dp"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
@@ -308,15 +265,15 @@ android:layout_marginTop="05dp"
   android:layout_height="wrap_content">
     
 <Button android:text="Buy" 
-android:id="@+id/Button08"
-android:background="#FF0000"
+android:id="@+id/ButtonNavigation"
+android:visibility="invisible"
 android:layout_marginLeft="20dp"
 android:layout_marginTop="05dp"
 android:layout_width="60dp" 
-android:layout_height="30dp"
+android:layout_height="40dp"
 ></Button>
 
-<TextView android:text="Machine" 
+<TextView android:text="Navigation system" 
 android:id="@+id/TextView08"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
@@ -329,7 +286,7 @@ android:layout_marginTop="05dp"
 android:id="@+id/TextView18"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
- android:layout_marginLeft="110dp"
+ android:layout_marginLeft="18dp"
 android:layout_marginTop="05dp"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
@@ -342,15 +299,15 @@ android:layout_marginTop="05dp"
   android:layout_height="wrap_content">
     
 <Button android:text="Buy" 
-android:id="@+id/Button09"
-android:background="#FF0000"
+android:id="@+id/ButtonTargetting"
+android:visibility="invisible"
 android:layout_marginLeft="20dp"
 android:layout_marginTop="05dp"
 android:layout_width="60dp" 
 android:layout_height="30dp"
 ></Button>
 
-<TextView android:text="Narcotics" 
+<TextView android:text="Targeting system" 
 android:id="@+id/TextView09"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
@@ -363,7 +320,7 @@ android:layout_marginTop="05dp"
 android:id="@+id/TextView19"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
- android:layout_marginLeft="105dp"
+ android:layout_marginLeft="25dp"
 android:layout_marginTop="05dp"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
@@ -376,15 +333,15 @@ android:layout_marginTop="05dp"
   android:layout_height="wrap_content">
     
 <Button android:text="Buy" 
-android:id="@+id/Button10"
-android:background="#FF0000"
+android:id="@+id/ButtonCloak"
+android:visibility="invisible"
 android:layout_width="60dp" 
-android:layout_height="30dp"
+android:layout_height="40dp"
 android:layout_marginLeft="20dp"
 android:layout_marginTop="5dp"
 ></Button>
 
-<TextView android:text="Robots" 
+<TextView android:text="Cloaking device" 
 android:id="@+id/TextView10"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
@@ -398,14 +355,30 @@ android:layout_marginTop="8dp"
 android:id="@+id/TextView20"
  android:textColor="#FFFFFF"
  android:textSize="15dp"
- android:layout_marginLeft="105dp"
-android:layout_marginTop="5dp"
+ android:layout_marginTop="5dp"
+ android:layout_marginLeft="20dp"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
 </LinearLayout>
 
-
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
  
 
-
+ <TextView android:text="Cash :"
+  android:id="@+id/TextView17"
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content"></TextView>
+   
+   
+ <TextView android:text="22 cr" 
+ android:id="@+id/TextView22"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"></TextView>
+ 
+ 
+</LinearLayout>
 </LinearLayout>
