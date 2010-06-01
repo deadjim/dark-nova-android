@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  
+
+<Button 
+android:text="status" 
+android:id="@+id/status02" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp">
+ </Button>
+<Button android:text="Quests" 
+android:id="@+id/quests02"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="cargo" 
+android:id="@+id/cargo02"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="shipinfo" 
+android:id="@+id/shipinfo02" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+<Button android:text="GPTA" 
+android:id="@+id/gpta02" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+
+</LinearLayout>
+  
+</LinearLayout>
