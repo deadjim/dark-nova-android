@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="@drawable/buyequip"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/ButtonBuyPulse"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+
+></Button>
+
+<TextView android:text="Pulse laser" 
+android:id="@+id/PulseTextView01"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="05dp"
+ android:textSize="15dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+
+<TextView android:text="not sold" 
+android:id="@+id/PulseTextView11"
+ android:layout_marginLeft="65dp"
+ android:layout_marginTop="05dp"
+ android:textSize="15dp"
+ android:textColor="#FFFFFF"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/ButtonBuyDisrupter"
+
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Disrupter" 
+android:id="@+id/DisrupterTextView02"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+
+<TextView android:text="not sold" 
+android:id="@+id/DisrupterTextView12"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="74dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/ButtonJustice"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+
+></Button>
+
+<TextView android:text="Justice Mark IV" 
+android:id="@+id/JusticeTextView03"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+android:layout_marginLeft="23dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+ 
+ <TextView android:text="not sold" 
+android:id="@+id/JusticeTextView13"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+android:layout_marginLeft="35dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/ButtonEnergy"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Energy shield" 
+android:id="@+id/EnergyTextView04"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="5dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+
+<TextView android:text="not sold" 
+android:id="@+id/EnergyTextView14"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="40dp"
+android:layout_marginTop="15dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/ButtonReflection"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Reflection Shield" 
+android:id="@+id/ReflectionTextView05"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+
+<TextView android:text="not sold" 
+android:id="@+id/ReflectionTextView15"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="25dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Button5extracargo"
+
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="5 Extra cargo bays" 
+android:id="@+id/ExtraTextView06"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+
+<TextView android:text="not sold" 
+android:id="@+id/ExtraTextView16"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="16dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/ButtonAuto"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Auto Repair System" 
+android:id="@+id/AutoTextView07"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+
+<TextView android:text="not sold" 
+android:id="@+id/AutoTextView17"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="16dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/ButtonNavigation"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Navigation system" 
+android:id="@+id/NavigationTextView08"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <TextView android:text="not sold" 
+android:id="@+id/NavigationTextView18"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="18dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/ButtonTargetting"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Targeting system" 
+android:id="@+id/TargetingTextView09"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <TextView android:text="not sold" 
+android:id="@+id/TargetingTextView19"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="25dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/ButtonCloak"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="5dp"
+></Button>
+
+<TextView android:text="Cloaking device" 
+android:id="@+id/CloakingTextView10"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="8dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+
+ 
+ <TextView android:text="not sold" 
+android:id="@+id/CloakingTextView20"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginTop="5dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+ 
+
+ <TextView android:text="Cash :"
+  android:id="@+id/CashTextView17"
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content"></TextView>
+   
+   
+ <TextView android:text="22 cr" 
+ android:id="@+id/CashbuyeTextView"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"></TextView>
+ 
+ 
+</LinearLayout>
+</LinearLayout>

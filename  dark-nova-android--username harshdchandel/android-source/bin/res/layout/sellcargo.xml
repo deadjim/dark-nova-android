@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/sellcargo"
+  >
+
+
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="37dp">
+    
+<Button android:text="Sell" 
+android:id="@+id/SellButton01"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:background="#FF0000"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Water" 
+android:id="@+id/SellTextView01"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="05dp"
+ android:textSize="15dp"
+ android:textColor="#FFFFFF"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/SellButton11"
+android:layout_marginLeft="30dp"
+android:layout_marginTop="05dp"
+android:background="#0000FF"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="40" 
+android:id="@+id/SellTextView11"
+ android:layout_marginLeft="35dp"
+ android:layout_marginTop="05dp"
+ android:textSize="15dp"
+ android:textColor="#FFFFFF"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="37dp">
+    
+<Button android:text="Sell" 
+android:id="@+id/SellButton02"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Food" 
+android:id="@+id/SellTextView02"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/SellButton12"
+android:background="#0000FF"
+android:layout_marginLeft="37dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="107" 
+android:id="@+id/SellTextView12"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="35dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="37dp">
+    
+<Button android:text="Sell" 
+android:id="@+id/SellButton03"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Furs" 
+android:id="@+id/SellTextView03"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/SellButton13"
+android:background="#0000FF"
+android:layout_marginLeft="42dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+ 
+ <TextView android:text="274" 
+android:id="@+id/SellTextView13"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+android:layout_marginLeft="35dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="37dp">
+    
+<Button android:text="Sell" 
+android:id="@+id/SellButton04"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Ore" 
+android:id="@+id/SellTextView04"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="5dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/SellButton14"
+android:background="#0000FF"
+android:layout_marginLeft="46dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="423" 
+android:id="@+id/SellTextView14"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="35dp"
+android:layout_marginTop="15dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="37dp">
+    
+<Button android:text="Sell" 
+android:id="@+id/SellButton05"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Games" 
+android:id="@+id/SellTextView05"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="13dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/SellButton15"
+android:background="#0000FF"
+android:layout_marginLeft="32dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="109" 
+android:id="@+id/SellTextView15"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="35dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="37dp">
+    
+<Button android:text="Sell" 
+android:id="@+id/SellButton06"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Firearms" 
+android:id="@+id/SellTextView06"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/SellButton16"
+android:background="#0000FF"
+android:layout_marginLeft="12dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="1009" 
+android:id="@+id/SellTextView16"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="25dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="37dp">
+    
+<Button android:text="Sell" 
+android:id="@+id/SellButton07"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Medicine" 
+android:id="@+id/SellTextView07"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/SellButton17"
+android:background="#0000FF"
+android:layout_marginLeft="10dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="not sold" 
+android:id="@+id/SellTextView17"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="25dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="37dp">
+    
+<Button android:text="Sell" 
+android:id="@+id/SellButton08"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Machine" 
+android:id="@+id/SellTextView08"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/SellButton18"
+android:background="#0000FF"
+android:layout_marginLeft="13dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+ 
+ <TextView android:text="not sold" 
+android:id="@+id/SellTextView18"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="25dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="37dp">
+    
+<Button android:text="Sell" 
+android:id="@+id/SellButton09"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Narcotics" 
+android:id="@+id/SellTextView09"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/SellButton19"
+android:background="#0000FF"
+android:layout_marginLeft="9dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+ 
+ <TextView android:text="not sold" 
+android:id="@+id/SellTextView19"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="25dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="37dp">
+    
+<Button android:text="Sell" 
+android:id="@+id/SellButton10"
+android:background="#FF0000"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="5dp"
+></Button>
+
+<TextView android:text="Robots" 
+android:id="@+id/SellTextView10"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="8dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+
+<Button android:text="Max" 
+android:id="@+id/SellButton20"
+android:background="#0000FF"
+android:layout_marginLeft="25dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+ 
+ <TextView android:text="not sold" 
+android:id="@+id/SellTextView20"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="25dp"
+android:layout_marginTop="5dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_marginTop="5dp"
+  android:layout_width="fill_parent"
+  android:layout_height="20dp">
+
+<TextView android:text="Bays:  " 
+android:id="@+id/TextSellCargoBays" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="25dp">
+</TextView>
+
+<TextView android:text="1/15" 
+android:id="@+id/TextSellCargoBaysValue" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="Cash:  " 
+android:id="@+id/TextSellCargoCash" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="70dp">
+</TextView>
+
+<TextView android:text="0 cr" android:id="@+id/TextSellCargoCashValue" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_marginTop="5dp"
+  android:layout_width="fill_parent"
+  android:layout_height="37dp">
+  
+  
+
+<Button 
+android:text="Command" 
+android:id="@+id/command03" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp">
+ </Button>
+<Button android:text="Shipyard" 
+android:id="@+id/shipyard03"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="Sell cargo" 
+android:id="@+id/sellcargo03"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="System info" 
+android:id="@+id/systeminfo03" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+<Button android:text="Warp" 
+android:id="@+id/warp03" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+
+</LinearLayout>
+ 
+
+
+</LinearLayout>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/buycargo">
+
+
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Buttonbuycargo1"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:background="#FF0000"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Water" 
+android:id="@+id/TextViewbuycargo01"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="05dp"
+ android:textSize="15dp"
+ android:textColor="#FFFFFF"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="max" 
+android:id="@+id/Buttonbuycargo11"
+android:layout_marginLeft="30dp"
+android:layout_marginTop="05dp"
+android:background="#0000FF"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="40" 
+android:id="@+id/TextViewbuycargo11"
+ android:layout_marginLeft="35dp"
+ android:layout_marginTop="05dp"
+ android:textSize="15dp"
+ android:textColor="#FFFFFF"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Buttonbuycargo02"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Food" 
+android:id="@+id/TextViewbuycargo02"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/Buttonbuycargo12"
+android:background="#0000FF"
+android:layout_marginLeft="37dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="107" 
+android:id="@+id/TextViewbuycargo12"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="35dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Buttonbuycargo03"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Furs" 
+android:id="@+id/TextViewbuycargo03"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/Buttonbuycargo13"
+android:background="#0000FF"
+android:layout_marginLeft="42dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+ 
+ <TextView android:text="274" 
+android:id="@+id/TextViewbuycargo13"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+android:layout_marginLeft="35dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Buttonbuycargo04"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Ore" 
+android:id="@+id/TextViewbuycargo04"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="5dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="max" 
+android:id="@+id/Buttonbuycargo14"
+android:background="#0000FF"
+android:layout_marginLeft="46dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="423" 
+android:id="@+id/TextViewbuycargo14"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="35dp"
+android:layout_marginTop="15dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Buttonbuycargo05"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Games" 
+android:id="@+id/TextViewbuycargo05"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="13dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="max" 
+android:id="@+id/Buttonbuycargo15"
+android:background="#0000FF"
+android:layout_marginLeft="32dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="109" 
+android:id="@+id/TextViewbuycargo15"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="35dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Buttonbuycargo06"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Firearms" 
+android:id="@+id/TextViewbuycargo06"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/Buttonbuycargo16"
+android:background="#0000FF"
+android:layout_marginLeft="14dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="1009" 
+android:id="@+id/TextViewbuycargo16"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="35dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<Button android:text="Buy" 
+android:id="@+id/Buttonbuycargo07"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Medicine" 
+android:id="@+id/TextViewbuycargo07"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/Buttonbuycargo17"
+android:background="#0000FF"
+android:layout_marginLeft="11dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="not sold" 
+android:id="@+id/TextViewbuycargo17"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="15dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="40dp">
+    
+<Button android:text="Buy" 
+android:id="@+id/Buttonbuycargo08"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Machine" 
+android:id="@+id/TextViewbuycargo08"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/Buttonbuycargo18"
+android:background="#0000FF"
+android:layout_marginLeft="15dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+ <TextView android:text="not sold" 
+android:id="@+id/TextViewbuycargo18"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="15dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="40dp">
+    
+<Button android:text="Buy" 
+android:id="@+id/Buttonbuycargo09"
+android:background="#FF0000"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Narcotics" 
+android:id="@+id/TextViewbuycargo09"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <Button android:text="Max" 
+android:id="@+id/Buttonbuycargo19"
+android:background="#0000FF"
+android:layout_marginLeft="10dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+ <TextView android:text="not sold" 
+android:id="@+id/TextViewbuycargo19"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="15dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="40dp">
+    
+<Button android:text="Buy" 
+android:id="@+id/Buttonbuycargo10"
+android:background="#FF0000"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="5dp"
+></Button>
+
+<TextView android:text="Robots" 
+android:id="@+id/TextViewbuycargo10"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="8dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+
+<Button android:text="Max" 
+android:id="@+id/Buttonbuycargo20"
+android:background="#0000FF"
+android:layout_marginLeft="27dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+ 
+ <TextView android:text="not sold" 
+android:id="@+id/TextViewbuycargo20"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="15dp"
+android:layout_marginTop="5dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="40dp">
+  
+<TextView android:text="Bays:  " 
+android:id="@+id/TextBuyCargoBay" 
+android:layout_marginLeft="20dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="1/15" 
+android:id="@+id/TextBuyCargoBayValue" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="Cash:  " 
+android:id="@+id/TextBuyCargoCash" 
+android:layout_marginLeft="70dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="0 cr" 
+android:id="@+id/TextBuyCargoCashValue" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+  
+  </LinearLayout>
+ 
+
+
+
+</LinearLayout>

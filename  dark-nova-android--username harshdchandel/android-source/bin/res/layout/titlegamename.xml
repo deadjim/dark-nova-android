@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  
+<TextView 
+android:text="Name" 
+android:id="@+id/TextView01" 
+android:textSize="12dp"
+android:height="10dp"
+android:textStyle="bold"
+android:layout_marginLeft="100dp"
+android:layout_marginTop="00dp"
+android:layout_width="140dp"
+android:layout_height="20dp"></TextView>
+
+<Button
+ android:text="Back" 
+ android:id="@+id/gameback" 
+ android:textSize="8dp"
+ android:layout_marginLeft="15dp"
+ android:layout_width="50dp" 
+ android:layout_height="30dp"
+  
+ ></Button>
+ 
+</LinearLayout>

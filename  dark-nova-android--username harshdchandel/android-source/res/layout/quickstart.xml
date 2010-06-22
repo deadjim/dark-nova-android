@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<TextView 
+android:id="@+id/TextView01" 
+android:maxLines="50"
+android:textSize="7dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:text= "QUICKSTART  GUIDE
+Game Objective
+The object of the game is to make enough money to purchase a Moon and then retire to it. Hopefully a nice oneHow you go about doing that is all up to you.
+Ultra Brief
+For the Attention Deficit
+Buy low and sell high
+Don't get blown up!
+Save your game often
+Upgrade Ship / Equipment often
+Configure options to match your style
+HAVE FUN!
+Quick Start
+For the Rest of You :-)"
+
+></TextView>
+
+
+
+</LinearLayout>

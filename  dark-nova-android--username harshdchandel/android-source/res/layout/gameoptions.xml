@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+
+
+<Button 
+android:text="Application Setting" 
+android:id="@+id/Button01" 
+android:layout_width="200dp" 
+android:layout_height="30dp"
+android:textSize="13dp"
+android:background="#000000"
+android:textColor="#FFFFFF"
+android:layout_marginTop="2dp">
+</Button>
+
+<Button 
+android:text="Individual Pilot (Game) Setting" 
+android:id="@+id/Button02" 
+android:layout_width="200dp" 
+android:layout_height="30dp"
+android:textSize="13dp"
+android:background="#000000"
+android:textColor="#FFFFFF"
+android:layout_marginTop="2dp">
+</Button>
+
+<Button 
+android:text="High Score Listing" 
+android:id="@+id/Button03" 
+android:layout_width="200dp" 
+android:layout_height="30dp"
+android:textSize="13dp"
+android:background="#000000"
+android:textColor="#FFFFFF"
+android:layout_marginTop="2dp">
+</Button>
+
+<Button 
+android:text="Retire Current Pilot (End Game)" 
+android:id="@+id/Button04" 
+android:layout_width="200dp" 
+android:layout_height="30dp"
+android:textSize="13dp"
+android:background="#000000"
+android:textColor="#FFFFFF"
+android:layout_marginTop="2dp">
+</Button>
+
+<Button android:text="Quick Start Guide" 
+android:id="@+id/Button05" 
+android:layout_width="200dp" 
+android:layout_height="30dp"
+android:textSize="13dp"
+android:background="#000000"
+android:textColor="#FFFFFF"
+android:layout_marginTop="2dp">
+</Button>
+
+<Button 
+android:text="User's Guide" 
+android:id="@+id/Button06" 
+android:layout_width="200dp" 
+android:layout_height="30dp"
+android:textSize="13dp"
+android:background="#000000"
+android:textColor="#FFFFFF"
+android:layout_marginTop="2dp">
+</Button>
+
+<Button 
+android:text="Tips and FAQ's" 
+android:id="@+id/Button07" 
+android:layout_width="200dp" 
+android:layout_height="30dp"
+android:textSize="13dp"
+android:background="#000000"
+android:textColor="#FFFFFF"
+android:layout_marginTop="2dp">
+</Button>
+
+<Button 
+android:text="Credits and Email's" 
+android:id="@+id/Button08" 
+android:layout_width="200dp" 
+android:layout_height="30dp"
+android:textSize="13dp"
+android:background="#000000"
+android:textColor="#FFFFFF"
+android:layout_marginTop="2dp">
+</Button>
+
+</LinearLayout>
