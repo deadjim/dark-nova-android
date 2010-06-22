@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/systeminfo">
+  
+  
+  
+ <TextView android:text="Ship View Info" 
+ android:layout_marginLeft="100dp"
+ android:layout_marginTop="20dp"
+ android:id="@+id/TextView01" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+ </TextView>
+ 
+ 
+ 
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+ <TextView android:text="Name:" 
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="5dp"
+ android:id="@+id/TextViewName" 
+ android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  </TextView>
+  
+  <TextView android:text="Name" 
+ android:layout_marginLeft="90dp"
+ android:layout_marginTop="5dp"
+ android:id="@+id/NameTextShip" 
+ android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  </TextView>
+  
+  </LinearLayout>
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<TextView android:text="Size:"
+android:layout_marginLeft="20dp"
+ android:layout_marginTop="5dp"
+ android:id="@+id/TextView03" 
+ android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  </TextView>
+  
+  <TextView android:text="Small" 
+ android:layout_marginLeft="103dp"
+ android:layout_marginTop="5dp"
+ android:id="@+id/SizeTextView" 
+ android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  </TextView>
+  </LinearLayout>
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<TextView android:text="Cargo Bays"
+android:layout_marginLeft="20dp"
+ android:layout_marginTop="5dp"
+ android:id="@+id/TextView04" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+ </TextView>
+
+<TextView android:text="15"
+android:layout_marginLeft="60dp"
+ android:layout_marginTop="5dp"
+ android:id="@+id/CargoTextView" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+ </TextView>
+ </LinearLayout>
+ <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<TextView android:text="Range" 
+android:id="@+id/TextView05"
+android:layout_marginLeft="20dp"
+ android:layout_marginTop="5dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+ </TextView>
+ 
+ <TextView android:text="15 Parsecs" 
+android:id="@+id/RangeTextView"
+android:layout_marginLeft="92dp"
+ android:layout_marginTop="5dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+ </TextView>
+ </LinearLayout>
+ <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<TextView android:text="Hull Strength"
+android:layout_marginLeft="20dp"
+ android:layout_marginTop="5dp"
+  android:id="@+id/TextView06"
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content">
+   </TextView>
+   
+   <TextView android:text="75"
+android:layout_marginLeft="50dp"
+ android:layout_marginTop="5dp"
+  android:id="@+id/HullTextView"
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content">
+   </TextView>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<TextView android:text="Weapon Slots"
+android:layout_marginLeft="20dp"
+ android:layout_marginTop="5dp"
+  android:id="@+id/TextView07"
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    </TextView>
+    
+    <TextView android:text="0"
+android:layout_marginLeft="50dp"
+ android:layout_marginTop="5dp"
+  android:id="@+id/WeaponTextView"
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<TextView android:text="Shield Slots"
+android:layout_marginLeft="20dp"
+ android:layout_marginTop="5dp"
+  android:id="@+id/TextView20"
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    </TextView>
+    
+    <TextView android:text="1"
+android:layout_marginLeft="62dp"
+ android:layout_marginTop="5dp"
+  android:id="@+id/ShieldTextView"
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+    
+<TextView android:text="Gadget Slots"
+android:layout_marginLeft="20dp"
+ android:layout_marginTop="5dp"
+  android:id="@+id/TextView08"
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    </TextView>
+    
+    <TextView android:text="1"
+android:layout_marginLeft="57dp"
+ android:layout_marginTop="5dp"
+  android:id="@+id/GadgetTextView"
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<TextView android:text="Crew Quarters"
+ android:id="@+id/TextView09"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="5dp"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content">
+   </TextView>
+   
+   <TextView android:text="1"
+ android:id="@+id/CrewTextView"
+ android:layout_marginLeft="44dp"
+ android:layout_marginTop="5dp"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content">
+   </TextView>
+   </LinearLayout>
+   <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<TextView android:text="Ship for sale" 
+android:layout_marginLeft="20dp"
+ android:layout_marginTop="5dp"
+ android:id="@+id/TextView10"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content">
+   </TextView>
+   
+   <TextView android:text="1" 
+android:layout_marginLeft="58dp"
+ android:layout_marginTop="5dp"
+ android:id="@+id/ShipTextView"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content">
+   </TextView>
+   </LinearLayout>
+</LinearLayout>
