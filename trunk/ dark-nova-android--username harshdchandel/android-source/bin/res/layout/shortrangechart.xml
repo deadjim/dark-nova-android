@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/galaxy"
+    >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+<Button android:id="@+id/ButtonLigon" 
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:layout_marginLeft="130dp">
+</Button>
+<TextView 
+android:text="Ligon" 
+android:id="@+id/TextLigon" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<Button 
+android:id="@+id/ButtonCestus" 
+android:layout_marginLeft="70dp"
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+></Button>
+<TextView 
+android:text="Cestus" 
+android:id="@+id/TextCestus" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<Button android:id="@+id/ButtonDaled" 
+android:layout_marginLeft="230dp"
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+></Button>
+<TextView 
+android:text="Daled" 
+android:id="@+id/TextDeled" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<Button 
+android:id="@+id/ButtonBrax" 
+android:layout_marginLeft="30dp"
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+></Button>
+<TextView 
+android:text="Braax" 
+android:id="@+id/TextBrax" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<Button 
+android:id="@+id/ButtonMenteka" 
+android:layout_marginLeft="80dp"
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"></Button>
+<TextView 
+android:text="Menteka" 
+android:id="@+id/TextMenteka" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<Button 
+
+android:id="@+id/ButtonLaretes" 
+android:layout_marginLeft="170dp"
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"></Button>
+<TextView 
+android:text="Laretes" 
+android:id="@+id/TextLaretes" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<Button 
+android:id="@+id/ButtonFeston" 
+android:layout_marginLeft="30dp"
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"></Button>
+<TextView 
+android:text="Feston" 
+android:id="@+id/TextFeston" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<Button 
+android:id="@+id/ButtonAldea" 
+android:layout_marginLeft="120dp"
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"></Button>
+<TextView 
+android:text="Aldea" 
+android:id="@+id/TextAldea" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<Button 
+android:id="@+id/ButtonMonta" 
+android:layout_marginLeft="260dp"
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"></Button>
+<TextView 
+android:text="Monta" 
+android:id="@+id/TextMonta" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<Button 
+
+android:id="@+id/ButtonTalonee" 
+android:layout_marginLeft="180dp"
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"></Button>
+<TextView 
+android:text="Talonee" 
+android:id="@+id/TextTalonee" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<Button 
+android:id="@+id/ButtonLargo" 
+android:layout_marginLeft="70dp"
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"></Button>
+<TextView 
+android:text="Largo" 
+android:id="@+id/TextLargo" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<Button 
+android:id="@+id/ButtonExo" 
+android:layout_marginLeft="190dp"
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"></Button>
+<TextView 
+android:text="Exo" 
+android:id="@+id/TextExo" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<Button 
+android:id="@+id/ButtonRovar" 
+android:layout_marginLeft="90dp"
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"></Button>
+<TextView 
+android:text="Rovar" 
+android:id="@+id/TextRovar" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<Button 
+
+android:id="@+id/ButtonOrrias" 
+android:layout_marginLeft="230dp"
+android:layout_width="30dp" 
+android:layout_height="30dp"
+android:textSize="10dp"></Button>
+<TextView 
+android:text="Orrias" 
+android:id="@+id/TextOrias" 
+android:layout_width="50dp" 
+android:layout_height="30dp"
+android:textSize="10dp"
+android:textStyle="bold"
+android:textColor="#FFFFFF">
+</TextView>
+</LinearLayout>
+  
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_marginTop="30dp"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  
+
+<Button 
+android:text="Command" 
+android:id="@+id/command05" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp">
+ </Button>
+<Button android:text="Shipyard" 
+android:id="@+id/shipyard05"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="Sell cargo" 
+android:id="@+id/sellcargo05"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="System info" 
+android:id="@+id/systeminfo05" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+<Button android:text="Warp" 
+android:id="@+id/warp05" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+
+</LinearLayout>
+
+</LinearLayout>
+

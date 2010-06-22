@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+<TextView 
+android:text="Nothin Special" 
+android:id="@+id/TextInfo" 
+android:layout_width="wrap_content" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+<Button 
+android:text="Previous" 
+android:id="@+id/ButtonPrevious" 
+android:layout_marginLeft="100dp"
+android:layout_width="wrap_content" 
+android:layout_height="30dp"
+android:textSize="12dp">
+</Button>
+<Button 
+android:text="Next" 
+android:id="@+id/ButtonNext" 
+android:layout_width="wrap_content" 
+android:layout_height="30dp"
+android:textSize="12dp">
+</Button>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <Button 
+android:text="Water" 
+android:id="@+id/ButtonWater" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+</Button>
+<TextView 
+android:text="+8 cr" 
+android:id="@+id/TextWater" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+ <Button 
+android:text="Firearms" 
+android:id="@+id/ButtonFirearms" 
+android:layout_width="90dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+</Button>
+<TextView 
+android:text="---" 
+android:id="@+id/TextFirearms" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+   <Button 
+android:text="Food" 
+android:id="@+id/ButtonFood" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+</Button>
+<TextView 
+android:text="+2 cr" 
+android:id="@+id/TextFood" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+  <Button 
+android:text="Medicine" 
+android:id="@+id/ButtonMedicine" 
+android:layout_width="90dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+</Button>
+<TextView 
+android:text="---" 
+android:id="@+id/TextMedicine" 
+android:layout_width="80dp" 
+android:layout_height="wrap_content"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+   <Button 
+android:text="Furs" 
+android:id="@+id/ButtonFurs" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+</Button>
+<TextView 
+android:text="-53 cr" 
+android:id="@+id/TextFurs" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+   <Button 
+android:text="Machine" 
+android:id="@+id/ButtonMachine" 
+android:layout_width="90dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+</Button>
+<TextView 
+android:text="---" 
+android:id="@+id/TextMachines" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+</LinearLayout> 
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+   <Button 
+android:text="Ore" 
+android:id="@+id/ButtonOre" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+</Button>
+<TextView 
+android:text="---" 
+android:id="@+id/TextOre" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+ <Button 
+android:text="Narcotics" 
+android:id="@+id/ButtonNarcotics" 
+android:layout_width="90dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+</Button>
+<TextView 
+android:text="---" 
+android:id="@+id/TextNarcotics" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+</LinearLayout> 
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <Button 
+android:text="Games" 
+android:id="@+id/ButtonGames" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+</Button>
+<TextView 
+android:text="---" 
+android:id="@+id/TextGames" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+  <Button 
+android:text="Robots" 
+android:id="@+id/ButtonRobots" 
+android:layout_width="90dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+</Button>
+<TextView 
+android:text="---" 
+android:id="@+id/TextRobots" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+   <Button 
+android:text="Absolute Prices" 
+android:id="@+id/ButtonAbsolute" 
+android:layout_width="130dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+  </Button>
+  <TextView 
+android:text="Bays :" 
+android:id="@+id/TextBays" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+  <TextView 
+android:text="0/10" 
+android:id="@+id/TextBaysValue" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+  <Button 
+android:text="System Information" 
+android:id="@+id/ButtonSystem" 
+android:layout_width="130dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+  </Button>
+  <TextView 
+android:text="Cash:" 
+android:id="@+id/TextCash" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+ <TextView 
+android:text="119 cr" 
+android:id="@+id/TextCashValue" 
+android:layout_width="80dp" 
+android:layout_height="30dp"
+android:gravity="center"
+android:textSize="12dp">
+</TextView>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+ 
+ <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"> 
+  
+   <Button 
+android:text="Short Range Chart" 
+android:id="@+id/ButtonShort" 
+android:layout_width="130dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+  </Button>
+      <Button 
+android:text="Galactic Chart" 
+android:id="@+id/ButtonGalactic" 
+android:layout_width="130dp" 
+android:layout_height="30dp"
+android:textSize="12dp">
+  </Button>
+</LinearLayout> 
+      <Button 
+android:text=""
+android:id="@+id/ButtonWARP" 
+android:layout_width="130dp" 
+android:layout_height="60dp"
+android:textSize="12dp"
+>
+  </Button>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:layout_marginTop="5dp">
+
+<TextView 
+android:text="GESDB" 
+android:id="@+id/TextView02" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="12dp">
+</TextView>
+
+<TextView 
+android:text="(Galactic Electronic Safety Deposit Box)" 
+android:id="@+id/TextView03" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="10dp"
+android:textSize="10dp">
+</TextView>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:layout_marginTop="2dp">
+
+<Button 
+android:text="Deposit Cash" 
+android:id="@+id/depositcash" 
+android:textSize="11dp"
+android:layout_width="120dp" 
+android:layout_height="30dp">
+</Button>
+
+<Button 
+android:text="Withdraw Cash" 
+android:id="@+id/withdrawcash" 
+android:textSize="11dp"
+android:layout_marginLeft="10dp"
+android:background="#00FF00"
+android:layout_width="120dp" 
+android:layout_height="30dp"></Button>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:layout_marginTop="2dp">
+  
+<TextView 
+android:text="Current amount :" 
+android:id="@+id/BankCurrentAMount" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="11dp">
+</TextView>
+
+<TextView 
+android:text="0 cr" 
+android:id="@+id/TextViewCurrentAmountText" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="15dp"
+android:textSize="11dp">
+</TextView>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:layout_marginTop="2dp">
+  
+<TextView 
+android:text="Loan" 
+android:id="@+id/TextView06" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="11dp">
+</TextView>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:layout_marginTop="2dp">
+  
+<Button 
+android:text="Get Loan" 
+android:id="@+id/getloan" 
+android:textSize="11dp"
+android:layout_width="120dp" 
+android:layout_height="30dp">
+</Button>
+
+
+<Button android:text="Pay Back" 
+android:id="@+id/paybank" 
+android:textSize="11dp"
+android:layout_marginLeft="10dp"
+android:background="#00FF00"
+android:layout_width="120dp" 
+android:layout_height="30dp">
+</Button>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:layout_marginTop="2dp">
+
+<TextView 
+android:text="Current Debt :" 
+android:id="@+id/TextView07" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="11dp">
+</TextView>
+
+<TextView android:text="0 Cr" 
+android:id="@+id/TextViewCurrentDebtText" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="25dp"
+android:textSize="11dp">
+</TextView>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:layout_marginTop="2dp">
+
+<TextView 
+android:text="Maximum Loan :" 
+android:id="@+id/TextView09" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="11dp">
+</TextView>
+
+<TextView 
+android:text="1000 Cr" 
+android:id="@+id/TextViewMaximumLoanText" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="11dp"
+android:textSize="11dp">
+</TextView>
+
+</LinearLayout> 
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:layout_marginTop="2dp">
+  
+<TextView 
+android:text="Insurance" 
+android:id="@+id/TextView11" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="11dp">
+</TextView>
+
+<Button android:text="Buy Insurance" 
+android:id="@+id/buyinsurance" 
+android:textSize="11dp"
+android:layout_marginLeft="83dp"
+android:background="#00FF00"
+android:layout_width="120dp" 
+android:layout_height="30dp"></Button>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:layout_marginTop="2dp">
+  
+<TextView 
+android:text="Current Ship :" 
+android:id="@+id/TextView12" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="11dp">
+</TextView>
+
+<TextView android:text="5625 Cr." 
+android:id="@+id/TextViewCurrentShipCostText" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="30dp"
+android:textSize="11dp">
+</TextView>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:layout_marginTop="2dp">
+  
+<TextView 
+android:text="No-claim :" 
+android:id="@+id/TextView14" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="11dp">
+</TextView>
+
+<TextView android:text="0 %" 
+android:id="@+id/TextViewNoClaimText" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="47dp"
+android:textSize="11dp">
+</TextView>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="10dp"
+  android:layout_marginTop="2dp">
+  
+<TextView 
+android:text="Costs :" 
+android:id="@+id/TextView16" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="11dp">
+</TextView>
+
+<TextView 
+android:text="0 cr." 
+android:id="@+id/TextViewInsuranceCostText" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="63dp"
+android:textSize="11dp">
+</TextView>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="150dp"
+  android:layout_marginTop="2dp">
+  
+<TextView 
+android:text="Cash :" 
+android:id="@+id/TextView18" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:textSize="11dp">
+</TextView>
+
+<TextView 
+android:text="2500 cr." 
+android:id="@+id/TextViewCurrentCashText" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="10dp"
+android:textSize="11dp">
+</TextView>
+
+</LinearLayout>
+</LinearLayout>
