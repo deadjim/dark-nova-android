@@ -187,7 +187,7 @@ android:textSize="12dp">
   android:layout_height="wrap_content">
   <Button 
 android:text="Games" 
-android:id="@+id/ButtonGaems" 
+android:id="@+id/ButtonGames" 
 android:layout_width="80dp" 
 android:layout_height="30dp"
 android:textSize="12dp">
@@ -305,12 +305,11 @@ android:textSize="12dp">
   </Button>
 </LinearLayout> 
       <Button 
-android:text="WARP"
+android:text=""
 android:id="@+id/ButtonWARP" 
 android:layout_width="130dp" 
 android:layout_height="60dp"
-android:textSize="12dp"
-android:background="#FF0000">
+android:textSize="12dp">
   </Button>
 </LinearLayout>
 </LinearLayout>

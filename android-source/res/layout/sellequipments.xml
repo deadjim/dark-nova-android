@@ -4,27 +4,424 @@
   android:orientation="vertical"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent"
-  android:background="@drawable/buyequip">
-  
-<TextView android:text="No weapons" 
-android:id="@+id/TextView01" 
-android:layout_marginLeft="50dp"
-android:layout_marginTop="30dp"
-android:layout_width="wrap_content" 
-android:layout_height="wrap_content"></TextView>
+  >
+ 
+ <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="35dp">
+    
+<Button android:text="Sell" 
+android:id="@+id/ButtonSellPulse"
+android:visibility="invisible"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
 
-<TextView android:text="No Shields"
- android:id="@+id/TextView02"
- android:layout_marginLeft="50dp"
-android:layout_marginTop="30dp"
-  android:layout_width="wrap_content" 
-  android:layout_height="wrap_content"></TextView>
-  
-<TextView android:text="No gadgets"
- android:id="@+id/TextView03" 
- android:layout_marginLeft="50dp"
-android:layout_marginTop="30dp"
+></Button>
+
+<TextView android:text="Pulse laser" 
+android:id="@+id/PulseSellTextView01"
+android:visibility="invisible"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="05dp"
+ android:textSize="15dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+
+<TextView android:text="not sold" 
+android:id="@+id/PulseSellTextView11"
+android:visibility="invisible"
+ android:layout_marginLeft="65dp"
+ android:layout_marginTop="05dp"
+ android:textSize="15dp"
+ android:textColor="#FFFFFF"
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content"></TextView>
  
 </LinearLayout>
+<TextView android:text="No weapons" 
+android:id="@+id/SellTextView01" 
+android:layout_marginLeft="50dp"
+android:layout_marginTop="10dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></TextView>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="35dp">
+    
+<Button android:text="Sell" 
+android:id="@+id/ButtonSellDisrupter"
+android:visibility="invisible"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Disrupter" 
+android:visibility="invisible"
+android:id="@+id/DisrupterSellTextView02"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+
+<TextView android:text="not sold" 
+android:visibility="invisible"
+android:id="@+id/DisrupterSellTextView12"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="74dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="35dp">
+    
+<Button android:text="Sell" 
+android:visibility="invisible"
+android:id="@+id/ButtonSellJustice"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+
+></Button>
+
+<TextView android:text="Justice Mark IV" 
+android:visibility="invisible"
+android:id="@+id/JusticeSellTextView03"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+android:layout_marginLeft="23dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+ 
+ <TextView android:text="not sold" 
+android:id="@+id/JusticeSellTextView13"
+android:visibility="invisible"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+android:layout_marginLeft="35dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+
+ 
+</LinearLayout>
+ <TextView android:text="No Shields"
+ android:id="@+id/SellTextView02"
+ android:layout_marginLeft="50dp"
+android:layout_marginTop="30dp"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"></TextView>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="35dp">
+    
+<Button android:text="Sell" 
+android:visibility="invisible"
+android:id="@+id/ButtonSellEnergy"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Energy shield" 
+android:visibility="invisible"
+android:id="@+id/EnergySellTextView04"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="5dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+
+<TextView android:text="not sold" 
+android:id="@+id/EnergySellTextView14"
+android:visibility="invisible"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="40dp"
+android:layout_marginTop="15dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="35dp">
+    
+<Button android:text="Sell" 
+android:visibility="invisible"
+android:id="@+id/ButtonSellReflection"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Reflection Shield" 
+android:visibility="invisible"
+android:id="@+id/ReflectionSellTextView05"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+
+<TextView android:text="not sold" 
+android:visibility="invisible"
+android:id="@+id/ReflectionSellTextView15"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="25dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="35dp">
+    
+<Button android:text="Sell" 
+android:id="@+id/ButtonSell5extracargo"
+android:visibility="invisible"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="5 Extra cargo bays" 
+android:visibility="invisible"
+android:id="@+id/ExtraSellTextView06"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+
+<TextView android:text="not sold" 
+android:visibility="invisible"
+android:id="@+id/ExtraSellTextView16"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="16dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
+<TextView android:text="No gadgets"
+ android:id="@+id/TextViewNoGadegts" 
+ android:layout_marginLeft="50dp"
+android:layout_marginTop="30dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="35dp">
+    
+<Button android:text="Sell" 
+android:visibility="invisible"
+android:id="@+id/ButtonSellAuto"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Auto Repair System" 
+android:visibility="invisible"
+android:id="@+id/AutoSellTextView07"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+
+<TextView android:text="not sold" 
+android:visibility="invisible"
+android:id="@+id/AutoSellTextView17"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="16dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="35dp">
+    
+<Button android:text="Sell" 
+android:visibility="invisible"
+android:id="@+id/ButtonSellNavigation"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+></Button>
+
+<TextView android:text="Navigation system" 
+android:visibility="invisible"
+android:id="@+id/NavigationSellTextView08"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <TextView android:text="not sold" 
+ android:visibility="invisible"
+android:id="@+id/NavigationSellTextView18"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="18dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="35dp">
+    
+<Button android:text="Sell" 
+android:visibility="invisible"
+android:id="@+id/ButtonSellTargetting"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+android:layout_width="60dp" 
+android:layout_height="30dp"
+></Button>
+
+<TextView android:text="Targeting system" 
+android:visibility="invisible"
+android:id="@+id/TargetingSellTextView09"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <TextView android:text="not sold" 
+ android:visibility="invisible"
+android:id="@+id/TargetingSellTextView19"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginLeft="25dp"
+android:layout_marginTop="05dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+  </TextView>
+ 
+
+
+ 
+</LinearLayout>
+ 
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="35dp">
+    
+<Button android:text="Sell" 
+android:visibility="invisible"
+android:id="@+id/ButtonSellCloak"
+android:layout_width="60dp" 
+android:layout_height="40dp"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="5dp"
+></Button>
+
+<TextView android:text="Cloaking device" 
+android:id="@+id/CloakingSellTextView10"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:visibility="invisible"
+ android:layout_marginLeft="20dp"
+android:layout_marginTop="8dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+
+ 
+ <TextView android:text="not sold" 
+android:id="@+id/CloakingSellTextView20"
+android:visibility="invisible"
+ android:textColor="#FFFFFF"
+ android:textSize="15dp"
+ android:layout_marginTop="5dp"
+ android:layout_marginLeft="20dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="35dp">
+ 
+
+ <TextView android:text="Cash :"
+  android:id="@+id/CashSellTextView17"
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content"></TextView>
+   
+   
+ <TextView android:text="22 cr" 
+ android:id="@+id/CashbuyeTextView"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"></TextView>
+ 
+ </LinearLayout>
+</LinearLayout>
+

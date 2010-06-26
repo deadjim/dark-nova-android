@@ -8,7 +8,7 @@
   
 <TextView 
 android:text="Active Quests" 
-android:id="@+id/TextView01" 
+android:id="@+id/TextViewTitleName" 
 android:textSize="12dp"
 android:height="10dp"
 android:textStyle="bold"
@@ -19,7 +19,7 @@ android:layout_height="20dp"></TextView>
 
 <Button
  android:text="Close" 
- android:id="@+id/activequestclose" 
+ android:id="@+id/ButtonTitleCLose" 
  android:textSize="8dp"
  android:layout_marginLeft="15dp"
  android:layout_width="50dp" 

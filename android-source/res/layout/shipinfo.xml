@@ -3,8 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:orientation="vertical"
   android:layout_width="fill_parent"
-  android:layout_height="fill_parent"
-  android:background="@drawable/systeminfo">
+  android:layout_height="fill_parent">
   
   
   
@@ -27,15 +26,15 @@
  <TextView android:text="Name:" 
  android:layout_marginLeft="20dp"
  android:layout_marginTop="5dp"
- android:id="@+id/TextView02" 
+ android:id="@+id/TextViewName" 
  android:layout_width="wrap_content"
   android:layout_height="wrap_content">
   </TextView>
   
-  <TextView android:text="Minox" 
+  <TextView android:text="Name" 
  android:layout_marginLeft="90dp"
  android:layout_marginTop="5dp"
- android:id="@+id/TextView11" 
+ android:id="@+id/NameTextShip" 
  android:layout_width="wrap_content"
   android:layout_height="wrap_content">
   </TextView>
@@ -58,7 +57,7 @@ android:layout_marginLeft="20dp"
   <TextView android:text="Small" 
  android:layout_marginLeft="103dp"
  android:layout_marginTop="5dp"
- android:id="@+id/TextView12" 
+ android:id="@+id/SizeTextView" 
  android:layout_width="wrap_content"
   android:layout_height="wrap_content">
   </TextView>
@@ -80,7 +79,7 @@ android:layout_marginLeft="20dp"
 <TextView android:text="15"
 android:layout_marginLeft="60dp"
  android:layout_marginTop="5dp"
- android:id="@+id/TextView13" 
+ android:id="@+id/CargoTextView" 
  android:layout_width="wrap_content" 
  android:layout_height="wrap_content">
  </TextView>
@@ -100,7 +99,7 @@ android:layout_marginLeft="20dp"
  </TextView>
  
  <TextView android:text="15 Parsecs" 
-android:id="@+id/TextView14"
+android:id="@+id/RangeTextView"
 android:layout_marginLeft="92dp"
  android:layout_marginTop="5dp"
  android:layout_width="wrap_content" 
@@ -124,7 +123,7 @@ android:layout_marginLeft="20dp"
    <TextView android:text="75"
 android:layout_marginLeft="50dp"
  android:layout_marginTop="5dp"
-  android:id="@+id/TextView15"
+  android:id="@+id/HullTextView"
    android:layout_width="wrap_content" 
    android:layout_height="wrap_content">
    </TextView>
@@ -146,7 +145,7 @@ android:layout_marginLeft="20dp"
     <TextView android:text="0"
 android:layout_marginLeft="50dp"
  android:layout_marginTop="5dp"
-  android:id="@+id/TextView16"
+  android:id="@+id/WeaponTextView"
    android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     </TextView>
@@ -168,7 +167,7 @@ android:layout_marginLeft="20dp"
     <TextView android:text="1"
 android:layout_marginLeft="62dp"
  android:layout_marginTop="5dp"
-  android:id="@+id/TextView21"
+  android:id="@+id/ShieldTextView"
    android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     </TextView>
@@ -190,7 +189,7 @@ android:layout_marginLeft="20dp"
     <TextView android:text="1"
 android:layout_marginLeft="57dp"
  android:layout_marginTop="5dp"
-  android:id="@+id/TextView17"
+  android:id="@+id/GadgetTextView"
    android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     </TextView>
@@ -210,7 +209,7 @@ android:layout_marginLeft="57dp"
    </TextView>
    
    <TextView android:text="1"
- android:id="@+id/TextView18"
+ android:id="@+id/CrewTextView"
  android:layout_marginLeft="44dp"
  android:layout_marginTop="5dp"
   android:layout_width="wrap_content"
@@ -234,7 +233,7 @@ android:layout_marginLeft="20dp"
    <TextView android:text="1" 
 android:layout_marginLeft="58dp"
  android:layout_marginTop="5dp"
- android:id="@+id/TextView19"
+ android:id="@+id/ShipTextView"
   android:layout_width="wrap_content"
    android:layout_height="wrap_content">
    </TextView>

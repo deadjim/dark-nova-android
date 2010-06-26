@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class systeminfo extends Activity {
     /** Called when the activity is first created. */
@@ -21,7 +22,10 @@ public class systeminfo extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.systeminfo);
-        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titlesysteminfo);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titleactivequests);
+        TextView t1=(TextView)this.findViewById(R.id.TextViewTitleName);
+        t1.setText("System Information");
+       
         
         bcommand=(Button)this.findViewById(R.id.command04);
         bcommand.setOnClickListener(new OnClickListener() {
@@ -44,7 +48,7 @@ public class systeminfo extends Activity {
            		startActivity(sellcargo1);
         	}
         });
-        bsysteminfoclose=(Button)this.findViewById(R.id.systeminfoclose);
+        bsysteminfoclose=(Button)this.findViewById(R.id.ButtonTitleCLose);
         bsysteminfoclose.setOnClickListener(new OnClickListener() {
         	public void onClick(View v){
         		Intent systeminfoclose1=new Intent(systeminfo.this,main.class);
@@ -58,5 +62,31 @@ public class systeminfo extends Activity {
            		startActivity(warp1);
         	}
         });
+    /*    
+        Globala gbuy=new Globala();
+        if (gbuy.IsNewsExist())
+    	{
+    		//[addSubview:systemNews];
+    	}
+    	else
+    	{
+    		//[ systemNews removeFromSuperview];
+    	}	
+    	if (gbuy.IsHireExist()>0)
+    	{
+    		//[self.view addSubview:systemHire];
+    	}
+    	else
+    	{
+    		//[ systemHire removeFromSuperview];
+    	}
+    	if (gbuy.IsSpecialExist())
+    	{
+    		//[self.view addSubview:systemSpecial];
+    	}
+    	else
+    	{
+    		// systemSpecial removeFromSuperview];
+    	}*/
     }
 }

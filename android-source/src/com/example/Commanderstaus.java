@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Commanderstaus extends Activity {
     /** Called when the activity is first created. */
@@ -23,7 +24,10 @@ public class Commanderstaus extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.commanderstatus);
-        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titlecommanderstatus);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titleactivequests);
+        TextView t1=(TextView)this.findViewById(R.id.TextViewTitleName);
+        t1.setText("Commander Log");
+       
         
         bcommanderlog=(Button)this.findViewById(R.id.Button01);
         bcommanderlog.setOnClickListener(new OnClickListener() {
@@ -33,7 +37,7 @@ public class Commanderstaus extends Activity {
            		startActivity(commanderlog1);
         	}
         });
-        bcommanderclose=(Button)this.findViewById(R.id.commanderstatusclose);
+        bcommanderclose=(Button)this.findViewById(R.id.ButtonTitleCLose);
         bcommanderclose.setOnClickListener(new OnClickListener() {
         	public void onClick(View v){
         		//setContentView(R.layout.buyequipment);
@@ -69,5 +73,9 @@ public class Commanderstaus extends Activity {
            		startActivity(gpta1);
         	}
         });
+        
+      
+        
     }
+    
 }

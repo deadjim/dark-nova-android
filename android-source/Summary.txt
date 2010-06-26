@@ -1,0 +1,2 @@
+In the given code the Encounter class has some problems.
+Also some game classes have been removed.

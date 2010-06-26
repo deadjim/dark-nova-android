@@ -8,19 +8,24 @@ import android.view.View;
 import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class gamename extends Activity {
     /** Called when the activity is first created. */
 	private Button gameback;
 	private Button warp1;
+	TextView t1;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.other);
-        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titlegamename);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titleactivequests);
+        t1=(TextView)this.findViewById(R.id.TextViewTitleName);
+        t1.setText("Game Names");
+       
       
-        gameback=(Button)this.findViewById(R.id.sellequipmentclose);
+        gameback=(Button)this.findViewById(R.id.ButtonTitleCLose);
         gameback.setOnClickListener(new OnClickListener() {
         	public void onClick(View v){
         		//setContentView(R.layout.buyequipment);

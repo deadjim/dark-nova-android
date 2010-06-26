@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class gpta extends Activity {
     /** Called when the activity is first created. */
@@ -16,14 +17,18 @@ public class gpta extends Activity {
 	private Button bquests5;
 	private Button bshipinfo5;
 	private Button bcargo5;
+	TextView t1;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.gpta);
-        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titlegpta);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titleactivequests);
+        t1=(TextView)this.findViewById(R.id.TextViewTitleName);
+        t1.setText("GPTA");
+       
     
-        bgptaclose=(Button)this.findViewById(R.id.gptaclose);
+        bgptaclose=(Button)this.findViewById(R.id.ButtonTitleCLose);
         bgptaclose.setOnClickListener(new OnClickListener() {
         	public void onClick(View v){
         		//setContentView(R.layout.buyequipment);
