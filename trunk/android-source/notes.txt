@@ -1,8 +1,0 @@
-this version doesnt has sound and images functionality
-it doesnt has load and save game either 
-the game is not in running condition bacause some of the functions
-in encounter.java arent working properly
-this happened beacause
-i have done modifications in many of the java files to bring it as close to iphone application 
-as possible
-i will try to the checkin in the  repository and notify you on this as i finish with this problem 

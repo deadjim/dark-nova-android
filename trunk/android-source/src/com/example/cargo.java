@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class cargo extends Activity {
     /** Called when the activity is first created. */
@@ -16,14 +17,18 @@ public class cargo extends Activity {
 	private Button bquests3;
 	private Button bshipinfo3;
 	private Button bgpta3;
+	TextView t1;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.specialcargo);
-        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titlespecialcargo);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titleactivequests);
+        t1=(TextView)this.findViewById(R.id.TextViewTitleName);
+        t1.setText("Special Cargo");
+       
     
-        bcargoclose=(Button)this.findViewById(R.id.specialcargcolose);
+        bcargoclose=(Button)this.findViewById(R.id.ButtonTitleCLose);
         bcargoclose.setOnClickListener(new OnClickListener() {
         	public void onClick(View v){
         		//setContentView(R.layout.buyequipment);

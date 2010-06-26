@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class quests extends Activity {
     /** Called when the activity is first created. */
@@ -22,8 +23,11 @@ public class quests extends Activity {
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.activequests);
         getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titleactivequests);
+        TextView t1=(TextView)this.findViewById(R.id.TextViewTitleName);
+        t1.setText("Buy Ship");
+       
     
-        bactivequestsclose=(Button)this.findViewById(R.id.activequestclose);
+        bactivequestsclose=(Button)this.findViewById(R.id.ButtonTitleCLose);
         bactivequestsclose.setOnClickListener(new OnClickListener() {
         	public void onClick(View v){
         		//setContentView(R.layout.buyequipment);

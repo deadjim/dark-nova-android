@@ -8,18 +8,23 @@ import android.view.View;
 import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Personnel extends Activity {
     /** Called when the activity is first created. */
 	private Button bpersonnel;
+	TextView t1;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.personnel);
-        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titlepersonnel);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titleactivequests);
+        t1=(TextView)this.findViewById(R.id.TextViewTitleName);
+        t1.setText("Peronnel Rooster");
+       
         
-        bpersonnel=(Button)this.findViewById(R.id.peopleroosterclose);
+        bpersonnel=(Button)this.findViewById(R.id.ButtonTitleCLose);
         bpersonnel.setOnClickListener(new OnClickListener() {
         	public void onClick(View v){
         		//setContentView(R.layout.buyequipment);

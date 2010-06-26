@@ -26,9 +26,12 @@ public class game extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.other);
-        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titlegame);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titleactivequests);
+        t1=(TextView)this.findViewById(R.id.TextViewTitleName);
+        t1.setText("Game");
+       
       
-        back=(Button)this.findViewById(R.id.gameback);
+        back=(Button)this.findViewById(R.id.ButtonTitleCLose);
         back.setOnClickListener(new OnClickListener() {
         	public void onClick(View v){
         		//setContentView(R.layout.buyequipment);

@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.SeekBar;
@@ -15,15 +16,20 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 public class NewCommander1 extends Activity implements OnSeekBarChangeListener, OnClickListener {
 	SeekBar difficultybar,pilotbar,engineerbar,fighterbar,traderbar;
 	TextView diffval,pilotval,enggval,fighterval,traderval,pointsremaining;
-	private int a,b,c,d;
+	public static int a,b,c,d;
 	public static int points;
 	private AlertDialog alertDialog;
 	Button alertbtn;
-	 public void onCreate(Bundle savedInstanceState) {
+	TextView t1;
+	 @Override
+	public void onCreate(Bundle savedInstanceState) {
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.newcommander);
-	        
-	        
+	        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titleactivequests);
+	        t1=(TextView)this.findViewById(R.id.TextViewTitleName);
+	        t1.setText("New Commander");
+	       
+	        a=1;b=1;c=1;d=1;
 	        this.difficultybar = (SeekBar)this.findViewById(R.id.SeekBarDifficulty);
 	   	 	this.difficultybar.setOnSeekBarChangeListener(this);
 	   	 	
@@ -41,9 +47,11 @@ public class NewCommander1 extends Activity implements OnSeekBarChangeListener, 
 	   	 	
 	   	 this.alertbtn = (Button)this.findViewById(R.id.ButtonStart);
 	   	this.alertbtn.setOnClickListener(this);
+	   	points=16;
 }
 	public void onProgressChanged(SeekBar seekBar, int progress,
 			boolean fromUser) {
+		
 		if(seekBar==this.difficultybar)
 		{
 			diffval = (TextView)this.findViewById(R.id.TextViewDifficultyLevel);
@@ -114,15 +122,17 @@ public class NewCommander1 extends Activity implements OnSeekBarChangeListener, 
 			pointsremaining=(TextView)this.findViewById(R.id.TextViewPointsremaining);
 			String str1=Integer.toString(points);
 			pointsremaining.setText(str1);
+			
 		}
+		
+	
 	}
 	public void onStartTrackingTouch(SeekBar seekBar) {
-		// TODO Auto-generated method stub
+
 		
 	}
 	public void onStopTrackingTouch(SeekBar seekBar) {
-		// TODO Auto-generated method stub
-		
+	
 	}
 	public void onClick(View view) {
 		// TODO Auto-generated method stub
@@ -141,6 +151,8 @@ public class NewCommander1 extends Activity implements OnSeekBarChangeListener, 
 		}
 		else if(points==0)
 		{
+			TextView Name=(TextView)this.findViewById(R.id.EditTextJohansen);
+		//	Global.CommanderName=Name.getText().toString();
 			setContentView(R.layout.commanderpad);
 			Intent intent = new Intent(NewCommander1.this,main.class);
 			startActivity(intent);

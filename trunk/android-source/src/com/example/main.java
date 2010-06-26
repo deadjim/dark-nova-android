@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
+import android.util.Log;
 
 public class main extends Activity {
     /** Called when the activity is first created. */
@@ -23,7 +25,7 @@ public class main extends Activity {
 	private Button bsysteminfo;
 	private Button bwarp1,bnew;
 	
-	
+	/*
 	public static int currentcash=0;
 	public static int  bankloan=0;
 	public static int bankdeposit=0;
@@ -51,13 +53,20 @@ public class main extends Activity {
 	public static long machine=0;
 	public static long narcotics=0;
 	public static long robots=0;
-	
+	*/
+	public int m=0;
+	TextView t1;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.commanderpad);
-        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titlecommanderpad);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titleactivequests);
+        t1=(TextView)this.findViewById(R.id.TextViewTitleName);
+        t1.setText("Commander Pad");
+       
+        TextView Name= (TextView)this.findViewById(R.id.textcommandername1);
+    //    Name.setText(Global.CommanderName);
          buycargo=(Button)this.findViewById(R.id.Button03);
         buycargo.setOnClickListener(new OnClickListener() {
         	public void onClick(View v){
@@ -154,5 +163,8 @@ public class main extends Activity {
            		startActivity(warp1);
         	}
         });
+        
+        Log.v("LOG_TAG" ,"m"+ m);
+        
     }
 }

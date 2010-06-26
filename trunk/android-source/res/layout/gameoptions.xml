@@ -5,15 +5,7 @@
   android:layout_width="wrap_content"
   android:layout_height="wrap_content">
   
-<TextView 
-android:text="Game Options" 
-android:id="@+id/TextView01" 
-android:layout_width="100dp" 
-android:layout_height="15dp"
-android:layout_marginLeft="70dp"
-android:textSize="15dp"
-android:layout_marginTop="2dp">
-</TextView>
+
 
 <Button 
 android:text="Application Setting" 
