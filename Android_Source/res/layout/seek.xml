@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+<TextView android:text="Deposit Cash"
+ android:id="@+id/Seekheading" 
+ android:textSize="15dp"
+ android:layout_marginTop="20dp"
+ android:layout_marginLeft="50dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+<TextView android:text="How much you want to deposit "
+ android:id="@+id/SeekLine1" 
+ android:textSize="11dp"
+ android:layout_marginTop="10dp"
+ android:layout_marginLeft="10dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+<TextView android:text="into your GSEDB ?"
+ android:id="@+id/SeekLine2"
+ android:textSize="11dp"
+ android:layout_marginLeft="30dp"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"></TextView>
+   
+   <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+   
+<TextView android:text="Selected amount:" 
+android:id="@+id/SeekLine3" 
+android:textSize="11dp"
+ android:layout_marginLeft="30dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></TextView>
+
+
+<TextView android:text="111"
+ android:id="@+id/Seekalertvalue" 
+ android:textSize="11dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ </LinearLayout>
+<SeekBar android:id="@+id/SeekBaramount" 
+android:progress="0"
+android:layout_height="20dp"
+android:layout_width="150dp"
+></SeekBar>
+
+
+   <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+
+<Button android:text="Cancel" 
+android:id="@+id/Seekalertno"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></Button>
+<Button android:text="Deposit"
+ android:id="@+id/Seekalertyes"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"></Button>
+</LinearLayout>
+</LinearLayout>

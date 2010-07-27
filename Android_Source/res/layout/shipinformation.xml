@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<TextView android:text="Type" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="Minox" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="Size :" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="[Small]" android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="Hull Strength" android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="[75]" android:id="@+id/TextView14" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Range :" android:id="@+id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="[15]parsecs" android:id="@+id/TextView15" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Equipment" android:id="@+id/TextView07" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="Installed" android:id="@+id/TextView08" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="Unfilled" android:id="@+id/TextView09" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="1" android:id="@+id/TextView10" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="sheild slots(s)" android:id="@+id/TextView11" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="1" android:id="@+id/TextView12" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="gadget slot(s)" android:id="@+id/TextView13" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="@+id/TextView14" android:id="@+id/TextView14" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_marginTop="55dp"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  
+
+<Button 
+android:text="status" 
+android:id="@+id/status04" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp">
+ </Button>
+<Button android:text="Quests" 
+android:id="@+id/quests04"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="cargo" 
+android:id="@+id/cargo04"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="shipinfo" 
+android:id="@+id/shipinfo04" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+<Button android:text="GPTA" 
+android:id="@+id/gpta04" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+
+</LinearLayout>
+</LinearLayout>

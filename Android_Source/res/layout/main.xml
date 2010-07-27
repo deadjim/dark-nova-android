@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/start"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_marginTop="400dp"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  
+
+<Button 
+android:text="New" 
+android:id="@+id/New01" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp">
+ </Button>
+<Button android:text="Load" 
+android:id="@+id/Load01"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="Jump" 
+android:id="@+id/Jump01"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+
+
+
+</LinearLayout>
+
+</LinearLayout>

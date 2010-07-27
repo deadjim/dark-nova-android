@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:scrollbarAlwaysDrawVerticalTrack="true"
+  android:background="#FFFFFF"
+  
+  >
+  <ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+  
+<LinearLayout android:id="@+id/LayoutQuickMain"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			
+			>
+  
+  
+<TextView 
+android:id="@+id/TextViewQuick1" 
+android:maxLines="50"
+android:textSize="10dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:text= "QUICKSTART GUIDE"
+android:background="#EE0000"
+android:textColor="#000000">
+</TextView>
+
+
+
+
+  
+<TextView android:text="Game Objective" 
+android:textColor="#000000"
+android:textSize="10dp"
+android:id="@+id/TextViewQuickView3" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+
+
+
+
+<TextView android:text=" The object of the game is to make enough money to purchase a Moon and then retire to it. Hopefully a nice oneHow you go about doing that is all up to you." 
+android:id="@+id/TextViewQuickView2"
+android:textColor="#000000"
+android:textSize="10dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+
+
+  
+<TextView
+android:textSize="10dp"
+android:text="Ultra Brief" 
+
+android:id="@+id/TextViewQuickView4"
+android:background="#EE0000"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+
+
+  
+<TextView
+android:textSize="10dp"
+ android:text="For the Attention Deficit"
+ android:textColor="#000000" 
+ android:id="@+id/TextViewQuickView5" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+ </TextView>
+ 
+
+  
+ 
+  
+<TextView 
+android:textSize="10dp"
+android:text="*Buy low and sell high
+*Don't get blown up!
+*Save your game often
+*Upgrade Ship / Equipment often
+*Configure options to match your style
+*HAVE FUN!" 
+android:id="@+id/TextViewQuickView6"
+android:textColor="#000000" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+
+ 
+  
+  
+  <TextView 
+  android:textSize="10dp"
+ android:text="Quick Start" 
+ android:background="#EE0000"
+ android:textColor="#000000"
+ android:id="@+id/TextViewQuickView7" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+ </TextView>
+  
+
+
+ 
+  
+<TextView 
+android:textSize="10dp"
+ android:text="For the Rest of You :-)"
+ android:textColor="#000000" 
+ android:id="@+id/TextViewQuickView8" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+</TextView>
+  
+
+
+ 
+  <TextView 
+  android:textSize="10dp"
+  android:textColor="#000000"
+ android:text="From the Jump Start section, selecta game and 'jump' right in!
+ OR...
+ 
+ 1. From New Game
+ 
+ 	Create a new commander
+ 		*Difficulty:Beginner
+ 		*Pilot Skill:6
+ 		*FIghter Skill:3
+ 		*Trader Skill:6
+ 		Engineer Skill:5
+ 		
+ 	Tap Start to begin
+ 	
+ 2. From Commanders PAD Tab
+ 		*Tap SAVE GAME then tap 'New' button to save your new game.
+ 		
+ 3.From Short Range Tab
+ 		*Select a planet within range(inside white ring)
+ 		*Find the most profitable planet using the '(' and ')' buttons
+ 		*Purchase your items in tap the 'HYPER WARP' button.
+ 	Before your first few trips you might want to get a loan from 
+ 	the BANK.Remember to pay it off as soon as you can as it
+ 	will incure interest charges.
+ 	
+ 4.Encounters (en-route to Space Port)
+ 	(A).For the first few trips:
+ 		*Traders: IGNORE
+ 		*Pirates: FLEE
+ 		*Police Inspector(1: SUBMIT)
+ 		*Police: IGNORE
+ 	(1)Even if you are transporting illegal goods, first SUBMIT to 
+ 	the inspection and then choose Flee on the pop up
+ 	confirmation.
+ 	
+ 5.Arrival New Planet
+ 	*Sell your goods (At a profit!)
+ 	*Repeat from step #3 above." 
+ android:id="@+id/TextViewQuickView9" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+ </TextView>
+  
+  
+
+
+  
+<TextView 
+android:textSize="10dp"
+android:text="Reminder:Save your game as often as you like (just tap the
+row with your pilots name). The game will also auto save upon arrival to each new planet.
+Don't forget- have fun!."
+ android:id="@+id/TextViewQuickVIew10" 
+  android:textColor="#000000"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+ </TextView>
+
+
+
+  
+<TextView android:text="Email"
+android:textSize="10dp" 
+android:background="#EE0000"
+ android:textColor="#000000"
+android:id="@+id/TextViewQuickView11" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+
+  
+<TextView android:text="Email Content"
+android:textSize="10dp"
+ android:textColor="#000000" 
+android:id="@+id/TextViewQuickView12" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+  
+ <TextView 
+ android:textSize="10dp"
+ android:background="#EE0000"
+  android:textColor="#000000"
+ android:text="You can email this and other html files from GAME
+  OPTIONS located on the PAD." 
+android:id="@+id/TextViewQuickView13" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+  
+  <TextView 
+  android:textSize="10dp"
+   android:textColor="#000000"
+  android:text="Additional Guides" 
+android:id="@+id/TextViewQuickView14" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+
+  
+  <TextView 
+  android:textSize="10dp"
+   android:textColor="#000000"
+  android:text="GAME OPTIONS" 
+android:id="@+id/TextViewQuickView15" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+
+  
+   <TextView
+   android:textSize="10dp"
+    android:textColor="#000000"
+    android:text="You can access this file, the full Users Guide and a Tips and FAQ 
+   file from GAME OPTIONS ont the PAD." 
+android:id="@+id/TextViewQuickView16" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
