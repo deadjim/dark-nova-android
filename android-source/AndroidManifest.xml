@@ -3,8 +3,8 @@
       package="com.example"
       android:versionCode="1"
       android:versionName="1.0">
-    <application android:label="@string/app_name" android:icon="@drawable/icon">
-        <activity android:name=".main"
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".first"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -12,67 +12,41 @@
             </intent-filter>
         </activity>
 
-    <activity android:name="Buyequip" android:label="@string/beequip"></activity>
+    <activity android:name="Applicationsetting"></activity>
 <activity android:name="Buycargo"></activity>
-<activity android:name="Commanderlog"></activity><activity android:name="Commanderstaus"></activity><activity android:name="galacticbank" android:label="@layout/galacticbank"></activity><activity android:name="Gameoptions"></activity><activity android:name="NewCommander1"></activity><activity android:name="Personnel" android:label="@layout/personnel"></activity><activity android:name="Sellequip"></activity>
-
-
-
-
-
-<activity android:name="sellcargo"></activity>
-<activity android:name="shipyard"></activity>
-<activity android:name="systeminfo"></activity>
-
-<activity android:name="shortrangechart"></activity>
-
-
-
+<activity android:name="Buyequip"></activity>
+<activity android:name="buyship"></activity>
 <activity android:name="cargo"></activity>
-
-
-
-
-
-
-
+<activity android:name="Commanderlog"></activity>
+<activity android:name="Commanderstaus"></activity>
+<activity android:name="credits"></activity>
 <activity android:name="encounter"></activity>
-
+<activity android:name="endgame"></activity>
+<activity android:name="galacticbank"></activity>
 <activity android:name="game"></activity>
 <activity android:name="gamename"></activity>
-<activity android:name="gpta"></activity>
-
-
-
-
-
-
-
-
-
-
-
-<activity android:name="quests"></activity>
-
-<activity android:name="shipinformation"></activity>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<activity android:name="Gameoptions"></activity>
 <activity android:name="Globala"></activity>
+<activity android:name="gpta"></activity>
+<activity android:name="indivisualpilotsetting"></activity>
+<activity android:name="main"></activity>
+<activity android:name="NewCommander1"></activity>
+<activity android:name="Personnel"></activity>
+<activity android:name="prices"></activity>
+<activity android:name="quests"></activity>
+<activity android:name="QuickStart"></activity>
+<activity android:name="sellcargo"></activity>
+<activity android:name="Sellequip"></activity>
+<activity android:name="ShipInfo"></activity>
+<activity android:name="shipinformation"></activity>
+<activity android:name="shipyard"></activity>
+<activity android:name="shortrangechart"></activity>
+<activity android:name="systeminfo"></activity>
+<activity android:name="userguide"></activity>
+<activity android:name="saveitems"></activity>
+<activity android:name="loadgame"></activity>
+<activity android:name="retire"></activity>
 </application>
-    <uses-sdk android:minSdkVersion="4" />
+
 
 </manifest> 
