@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:scrollbarAlwaysDrawVerticalTrack="true"
+  
+  
+  >
+  
+<ScrollView android:id="@+id/ScrollView03" 
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content">
+ 
+ <LinearLayout android:id="@+id/LayoutQuickcredits"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			
+			>
+   
+<TextView android:text="Dark Nova Credits" 
+android:id="@+id/TextView01"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+ </TextView>
+<TextView android:text="Produced by Dead Jim Studios" 
+android:id="@+id/TextView02" 
+android:singleLine="false"
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content">
+ </TextView>
+<TextView android:text="Dead Jim Studios is Shon Burton and Scott Weaver"
+ android:id="@+id/TextView03" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+ </TextView>
+<TextView android:text="Art and Graphics"
+ android:id="@+id/TextView04"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content">
+   </TextView>
+   
+<TextView android:text="Original art for was developed for Dead Jim Stuios by Tyson Manglesdorf. Thanks Tyson, You Rock! Aditional graphics work by Shon Burton.
+" 
+android:id="@+id/TextView05" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+   
+   <TextView android:text="Development" 
+android:id="@+id/TextView06" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+   
+   <TextView android:text="Dark Nova is based on Space Trader by Pieter Spronk. Code is licesed under GPLv2.
+
+Code ported by Dead Jim Studios with help from: 
+
+Jason Doctor Duke
+
+
+Kenneth L. Brooks 
+
+Gregory Meach... whether he likes it or not! ;) 
+" 
+
+android:id="@+id/TextView07" 
+android:singleLine="false"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+   
+   <TextView android:text="Quality Assurance" 
+android:id="@+id/TextView08" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+ <TextView android:text="Lead QA: Ella Meach" 
+android:id="@+id/TextView09" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+ <TextView android:text="Additional QA: Gregory Meach" 
+android:id="@+id/TextView10" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+ <TextView android:text="Inspiration" 
+android:id="@+id/TextView11" 
+android:singleLine="false"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+ <TextView android:text="Overall Design" 
+android:id="@+id/TextView12" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="Based on Space Trader by Peiter Spronk. Inspired by games like Sundog, Star Control 2, Start Flight, Freelancer, Privateer, Elite, and many more.
+" 
+android:id="@+id/TextView13" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+<TextView android:text="Additional" 
+android:id="@+id/TextView14" 
+android:singleLine="false"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+<TextView android:text="Dark Nova Beta Testers" 
+android:id="@+id/TextView15" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</TextView>
+
+
+   </LinearLayout>
+  </ScrollView>
+ 
+</LinearLayout>

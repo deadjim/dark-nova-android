@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/commanderstatus">
+  
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<Button android:text="Buy Equipment"
+android:id="@+id/Button01" 
+android:height="25dp"
+android:width="120dp"
+android:background="#FBB117"
+android:layout_marginTop="20dp"
+android:layout_marginLeft="30dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</Button>
+<Button android:text="Sell equipment" 
+android:id="@+id/Button02" 
+android:height="25dp"
+android:width="120dp"
+android:background="#FBB117"
+android:layout_marginTop="20dp"
+android:layout_marginLeft="30dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<Button android:text="Buy Cargo" 
+android:id="@+id/Button03" 
+android:height="25dp"
+android:width="120dp"
+android:background="#FBB117"
+android:layout_marginTop="20dp"
+android:layout_marginLeft="30dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+<Button android:text="Bank" 
+android:id="@+id/Button04" 
+android:height="25dp"
+android:width="120dp"
+android:background="#FBB117"
+android:layout_marginTop="20dp"
+android:layout_marginLeft="30dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
+
+<Button android:text="Personnel Roster" 
+android:id="@+id/Button05" 
+android:height="25dp"
+android:width="270dp"
+android:background="#FBB117"
+android:layout_marginLeft="30dp"
+android:layout_marginTop="20dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+<Button android:text="Commander Status" 
+android:id="@+id/Button06" 
+android:height="25dp"
+android:width="270dp"
+android:background="#FBB117"
+android:layout_marginLeft="30dp"
+android:layout_marginTop="20dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+<Button android:text="GLACTIC CHART"
+ android:id="@+id/Button07"
+ android:height="25dp"
+android:width="270dp"
+android:background="#FBB117"
+android:layout_marginLeft="30dp"
+android:layout_marginTop="20dp"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"></Button>
+
+
+<Button android:text="GAME OPTIONS"
+ android:id="@+id/Button08"
+ android:height="25dp"
+android:width="270dp"
+android:background="#FF0000"
+android:layout_marginLeft="30dp"
+android:layout_marginTop="20dp"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content">
+  </Button>
+  
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+<Button android:text="SAVE GAME" 
+android:id="@+id/savegameButton09" 
+android:height="25dp"
+android:width="120dp"
+android:background="#FF0000"
+android:layout_marginTop="20dp"
+android:layout_marginLeft="30dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+<Button android:text="LOAD GAME" 
+android:id="@+id/loadgameButton010" 
+android:height="25dp"
+android:width="120dp"
+android:background="#FF0000"
+android:layout_marginTop="20dp"
+android:layout_marginLeft="30dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+<TextView android:text="Commander:" 
+android:id="@+id/textcommandername"
+android:layout_marginTop="20dp"
+  android:layout_marginLeft="90dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+ <TextView android:text="name" 
+android:id="@+id/textcommandername1"
+android:layout_marginTop="20dp"
+  android:layout_marginLeft="10dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ <Button 
+android:text="NewCommander" 
+android:id="@+id/ButtonNewCommander" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp">
+ </Button>
+ 
+ </LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_marginTop="30dp"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  
+
+<Button 
+android:text="Command" 
+android:id="@+id/Button10" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp">
+ </Button>
+<Button android:text="Shipyard" 
+android:id="@+id/shipyard1"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="Sell cargo" 
+android:id="@+id/sellcargo1"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="System info" 
+android:id="@+id/systeminfo1" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+<Button android:text="Warp" 
+android:id="@+id/warp1" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+
+</LinearLayout>
+</LinearLayout>

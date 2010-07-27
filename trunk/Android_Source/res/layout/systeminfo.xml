@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="@drawable/systeminfo"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  
+   <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+     <TextView android:text="Name"
+       android:id="@+id/TextView15" 
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="30dp"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"></TextView>
+ 
+     <TextView android:text="Aldea" 
+       android:id="@+id/TextView16" 
+       android:layout_marginLeft="52dp"
+       android:layout_marginTop="30dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"></TextView>
+ 
+  </LinearLayout>
+  
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+      <TextView android:text="Size :" 
+      android:id="@+id/TextView01" 
+      android:layout_marginLeft="30dp"
+      android:layout_marginTop="10dp"
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content"></TextView>
+
+<TextView 
+      android:text="Huge"
+      android:id="@+id/TextView02" 
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="60dp" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content"></TextView>
+ 
+</LinearLayout>
+   <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="horizontal"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+
+     <TextView android:text="Tech Level :" 
+      android:id="@+id/TextView03" 
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="30dp"
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content"></TextView>
+
+     <TextView android:text="Hi-tech" 
+      android:id="@+id/TextView04"
+      android:layout_marginLeft="20dp" 
+      android:layout_marginTop="10dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"></TextView>
+  
+    </LinearLayout>
+    <LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+
+<TextView android:text="Goverment :" 
+android:id="@+id/TextView05"
+android:layout_marginTop="10dp"
+android:layout_marginLeft="30dp"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+<TextView android:text="Capitalist State"
+ android:id="@+id/TextView06"
+ android:layout_marginLeft="15dp" 
+ android:layout_marginTop="10dp"
+  android:layout_width="wrap_content"
+   android:layout_height="wrap_content"></TextView>
+   
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+<TextView android:text="Diastance" 
+android:id="@+id/TextView07" 
+android:layout_marginLeft="30dp"
+android:layout_marginTop="10dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="0 parsecs" 
+android:id="@+id/TextView08" 
+android:layout_marginLeft="32dp" 
+android:layout_marginTop="10dp"
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content">
+ </TextView>
+
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+<TextView android:text="Police :" 
+android:id="@+id/TextView09" 
+android:layout_marginLeft="30dp" 
+android:layout_marginTop="10dp"
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"></TextView>
+ 
+<TextView android:text="some" 
+android:id="@+id/TextView10" 
+android:layout_marginLeft="50dp" 
+android:layout_marginTop="10dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+<TextView android:text="Pirates :" 
+android:id="@+id/TextView11" 
+android:layout_marginLeft="30dp" 
+android:layout_marginTop="10dp"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Few" 
+android:id="@+id/TextView12" 
+android:layout_marginLeft="46dp" 
+android:layout_marginTop="10dp"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
+
+
+
+<Button android:text="Average Price  list"
+ android:id="@+id/Button04" 
+ android:textSize="15dp"
+ android:layout_marginTop="20dp"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+  ></Button>
+  
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+<Button android:text="Short Range Chart"
+ android:id="@+id/Button05" 
+ android:layout_width="wrap_content"
+  android:layout_height="wrap_content"></Button>
+  
+<Button android:text="Warp" 
+android:id="@+id/Button06" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></Button>
+</LinearLayout>
+
+<Button android:text="Galactic chart" 
+android:id="@+id/Button07" 
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"></Button>
+ 
+ <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_marginTop="15dp"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  
+
+<Button 
+android:text="Command" 
+android:id="@+id/command04" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp">
+ </Button>
+<Button android:text="Shipyard" 
+android:id="@+id/shipyard04"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="Sell cargo" 
+android:id="@+id/sellcargo04"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="System info" 
+android:id="@+id/systeminfo04" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+<Button android:text="Warp" 
+android:id="@+id/warp04" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+
+</LinearLayout>
+
+</LinearLayout>
+ 

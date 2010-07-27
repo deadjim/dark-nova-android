@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="@drawable/personnelroster"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  
+<TextView 
+android:text="Personnel" 
+android:id="@+id/TextView01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="150dp">
+</TextView>
+
+<TextView 
+android:text="No Quarters Available" 
+android:id="@+id/TextView02" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="120dp"
+android:layout_marginTop="50dp"
+android:gravity="center">
+</TextView>
+
+<TextView 
+android:text="No Quarters Available" 
+android:id="@+id/TextView03" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="120dp"
+android:layout_marginTop="50dp"
+android:gravity="center">
+</TextView>
+
+<TextView 
+android:text="No one for hire" 
+android:id="@+id/TextView04" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="140dp"
+android:layout_marginTop="50dp"
+android:gravity="center">
+</TextView>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="20dp">
+  
+<TextView 
+android:text="Cash :" 
+android:id="@+id/TextView05" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="200dp"
+>
+</TextView>
+
+<TextView 
+android:text="1250 cr." 
+android:id="@+id/creditTextView06" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginLeft="20dp">
+</TextView>
+</LinearLayout>
+
+</LinearLayout>

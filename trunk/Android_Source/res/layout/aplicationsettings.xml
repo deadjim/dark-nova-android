@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+
+
+
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="Auto Load Save Game" android:id="@+id/TextView01"
+			android:layout_marginLeft="20dp" android:layout_marginTop="30dp"
+			android:textSize="15dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<Button android:text="ON" android:id="@+id/AutoLoadSaveGameButtonon"
+			android:layout_marginTop="30dp" android:layout_marginLeft="35dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+		<Button android:text="" android:id="@+id/AutoLoadSaveGameButtonoff"
+			android:layout_marginTop="30dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="Enable Background Music" android:id="@+id/TextView02"
+			android:layout_marginLeft="20dp" android:layout_marginTop="5dp"
+			android:textSize="15dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<Button android:text="ON" android:id="@+id/EnableBackgroundMusicButtonon"
+			android:layout_marginTop="4dp" android:layout_marginLeft="8dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+		<Button android:text="" android:id="@+id/EnableBackgroundMusicButtoff"
+			android:layout_marginTop="5dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+
+
+	<TextView android:text="Background Volume" android:id="@+id/TextView07"
+		android:layout_marginLeft="20dp" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="10" android:id="@+id/TextView09"
+			android:layout_marginLeft="20dp"
+		    android:layout_marginTop="15dp"
+			android:layout_width="20dp" 
+			android:layout_height="30dp" />
+
+<SeekBar 
+android:id="@+id/SeekBarvolume" 
+android:layout_height="20dp"
+android:layout_width="150dp"
+android:layout_marginTop="12dp"
+android:layout_marginLeft="10dp"
+android:max="100"
+android:progress="2"
+android:gravity="center">
+</SeekBar>
+        <TextView android:text="100" android:id="@+id/TextView0800"
+			android:layout_marginLeft="10dp" android:layout_marginTop="15dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="Enable Game Sounds" android:id="@+id/TextView03"
+			android:layout_marginLeft="20dp" android:layout_marginTop="5dp"
+			android:textSize="15dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<Button android:text="ON" android:id="@+id/EnableGameSoundson"
+			android:layout_marginTop="5dp" android:layout_marginLeft="40dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+		<Button android:text="" android:id="@+id/EnableGameSoundsoff"
+			android:layout_marginTop="5dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="Enable Talking Alerts" android:id="@+id/TextView04"
+			android:layout_marginLeft="20dp" android:layout_marginTop="5dp"
+			android:textSize="15dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<Button android:text="ON" android:id="@+id/EnableTalkingAlertson"
+			android:layout_marginTop="5dp" android:layout_marginLeft="44dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+		<Button android:text="" android:id="@+id/EnableTalkingAlertsoff"
+			android:layout_marginTop="5dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="Left Hand Layout" android:id="@+id/TextView05"
+			android:layout_marginLeft="20dp" android:layout_marginTop="5dp"
+			android:textSize="15dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<Button android:text="ON" android:id="@+id/LeftHandLayouton"
+			android:layout_marginTop="5dp" android:layout_marginLeft="70dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+		<Button android:text="" android:id="@+id/LeftHandLayoutoff"
+			android:layout_marginTop="5dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView android:text="Encounter Text Color" android:id="@+id/TextView06"
+			android:layout_marginLeft="20dp" android:layout_marginTop="5dp"
+			android:textSize="15dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<Button android:text="ON" android:id="@+id/EncounterTextColoron"
+			android:layout_marginTop="5dp" android:layout_marginLeft="42dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+		<Button android:text="" android:id="@+id/EncounterTextColoroff"
+			android:layout_marginTop="5dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+
+
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<Button android:text="Green" android:id="@+id/buttongreen"
+			android:visibility="invisible" android:layout_marginTop="5dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+		<Button android:text="Blue" android:id="@+id/buttonblue"
+			android:visibility="invisible" android:layout_marginTop="5dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+		<Button android:text="Red" android:id="@+id/buttonred"
+			android:visibility="invisible" android:layout_marginTop="5dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+</LinearLayout>

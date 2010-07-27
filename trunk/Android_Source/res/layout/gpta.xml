@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+<TextView android:text="GPTA RULES" 
+android:id="@+id/TextView01" 
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="The Galactic Passenger Transport Association" 
+android:id="@+id/TextView02" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"></TextView>
+
+
+<TextView android:text="requires the following:"
+ android:id="@+id/TextView03" 
+ android:layout_width="wrap_content"
+  android:layout_height="wrap_content"></TextView>
+  
+<TextView android:text="1. Logged a minimum of 10 days travel"
+ android:id="@+id/TextView04"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"></TextView>
+  
+<TextView android:text="experience" 
+android:id="@+id/TextView05"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+ 
+<TextView android:text="Minimum of 5000 credits (not counting your" 
+android:id="@+id/TextView06"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"></TextView>
+<TextView android:text="GSEDB)" 
+android:id="@+id/TextView07" 
+android:layout_width="wrap_content"
+ android:layout_height="wrap_content"></TextView>
+ 
+ 
+ 
+<TextView android:text="3.Police record of dubious or less" android:id="@+id/TextView08" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="4.Ship must have a shield" android:id="@+id/TextView09" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+
+
+<TextView android:text="5.Ship must be free from infestation" android:id="@+id/TextView10" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+
+
+<TextView android:text="6.Provide three cargo bays per passenger " android:id="@+id/TextView11" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="7.Ship navigation system will auto target the" android:id="@+id/TextView12" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text=" destination and record the trip detail which can" android:id="@+id/TextView13" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+
+<TextView android:text=" be found under commander status quests" android:id="@+id/TextView14" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="Fees and Passenger Safety" android:id="@+id/TextView15" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="* A Loading charge(10%) is deposited into" android:id="@+id/TextView16" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="your account wen passenger board." android:id="@+id/TextView17" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="a debarkation fees (10/%) is assessed at the destination space port" android:id="@+id/TextView18" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="If your ship Hull strength goes below 90% your passenger will use their PEP's(personnel escape pods).You will be charged the standard rescue fee of 150 credits per PEP.You will not collect any additional transport Fees." android:id="@+id/TextView19" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_marginTop="55dp"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  
+
+<Button 
+android:text="status" 
+android:id="@+id/status05" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp">
+ </Button>
+<Button android:text="Quests" 
+android:id="@+id/quests05"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="cargo" 
+android:id="@+id/cargo05"
+android:textSize="9dp"
+ android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+ 
+<Button android:text="shipinfo" 
+android:id="@+id/shipinfo05" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+<Button android:text="GPTA" 
+android:id="@+id/gpta05" 
+android:textSize="9dp"
+android:layout_width="65dp"
+ android:layout_height="30dp"></Button>
+
+
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
