@@ -79,38 +79,49 @@ public class NewCommander1 extends Activity implements OnSeekBarChangeListener, 
 		}
 		else if(seekBar==this.pilotbar){
 			
-			pilotval=(TextView)this.findViewById(R.id.TextViewPilotValue);
-			String str= Integer.toString(progress);
-			a=progress;
-			pilotval.setText(str);
-			
-			
-			
+			if( points == 0 && progress > a) {
+                pilotbar.setProgress(a);
+            }  else {
+                pilotval=(TextView)this.findViewById(R.id.TextViewPilotValue);
+                String str= Integer.toString(progress);
+                a=progress;
+                pilotval.setText(str);
+            }
 		}
 		else if(seekBar==this.engineerbar)
 		{
-			enggval=(TextView)this.findViewById(R.id.TextViewEngineerValue);
-			String str= Integer.toString(progress);
-			b=progress;
-			enggval.setText(str);
-			Globala.engineerSkill=b;
-			Globala.pilotSkill=a;
+			if( points == 0 && progress > b) {
+                engineerbar.setProgress(b);
+            } else {
+                enggval=(TextView)this.findViewById(R.id.TextViewEngineerValue);
+                String str= Integer.toString(progress);
+                b=progress;
+                enggval.setText(str);
+                Globala.engineerSkill=b;
+                Globala.pilotSkill=a;
+            }
 		}
 		else if(seekBar==this.fighterbar)
 		{
-			fighterval=(TextView)this.findViewById(R.id.TextViewFighterValue);
-			String str= Integer.toString(progress);
-			c=progress;
-			fighterval.setText(str);
+            if( points == 0 && progress > c) {
+                fighterbar.setProgress(c);
+            } else {
+                fighterval=(TextView)this.findViewById(R.id.TextViewFighterValue);
+                String str= Integer.toString(progress);
+                c=progress;
+                fighterval.setText(str);
+            }
 			}
 		else if (seekBar==this.traderbar)
 		{
-			traderval=(TextView)this.findViewById(R.id.TextViewTraderValue);
-			String str= Integer.toString(progress);
-			d=progress;
-			traderval.setText(str);
-			
-		
+            if( points == 0 && progress > d) {
+                traderbar.setProgress(d);
+            } else {
+                traderval=(TextView)this.findViewById(R.id.TextViewTraderValue);
+                String str= Integer.toString(progress);
+                d=progress;
+                traderval.setText(str);
+            }
 		}
 		temp=a+b+c+d;
 		if(temp<20)
