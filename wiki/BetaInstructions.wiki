@@ -1,6 +1,11 @@
 #summary Instructions for installing Dark Nova Betas on Android devices
+#labels Featured
 
-= Introduction =
+= Dark Nova Android Beta Introduction =
+
+Q: Where do I get the beta?
+
+A: http://code.google.com/p/dark-nova-android/downloads/detail?name=darknova.apk&can=2&q=
 
 Q: How do you install Dark Nova Beta APK files?
 
