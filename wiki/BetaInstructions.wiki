@@ -13,7 +13,7 @@ A: Before performing these steps, be sure to enable your device to allow install
 
 1. Go to the Android Market on the phone and search for and download an app called ApkInstaller.
 
-2. Attach your Droid to your computer. Swipe down the notification bar at the top screen and Mount the device. The device should show up as a drive.
+2. Attach your device to your computer. Swipe down the notification bar at the top screen and Mount the device. The device should show up as a drive.
 
 3. Take the APK file you downloaded and copy it to anywhere on the SD Card drive.
 
