@@ -23,7 +23,6 @@ A: Before performing these steps, be sure to enable your device to allow install
 
 6. Tap Install.
 
-
-Test and be sure to log bugs to: http://code.google.com/p/dark-nova-android/issues/list
+7. Test and be sure to *log bugs* to: http://code.google.com/p/dark-nova-android/issues/list
 
 Thanks!
