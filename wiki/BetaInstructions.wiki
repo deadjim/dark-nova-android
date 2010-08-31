@@ -5,7 +5,7 @@
 
 Q: Where do I get the beta?
 
-A: http://dark-nova-android.googlecode.com/files/Dark_Nova_01.apk
+A: http://code.google.com/p/dark-nova-android/downloads/list
 
 Q: How do you install Dark Nova Beta APK files?
 
