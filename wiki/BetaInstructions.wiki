@@ -1,28 +1,10 @@
 #summary Instructions for installing Dark Nova Betas on Android devices
 #labels Featured
 
-= Dark Nova Android Beta Introduction =
+Hello, thanks for checking out Dark Nova. Good news, Dark Nova has been released! You can find it in the Android Market!
 
-Q: Where do I get the beta?
-
-A: http://code.google.com/p/dark-nova-android/downloads/list
-
-Q: How do you install Dark Nova Beta APK files?
-
-A: Before performing these steps, be sure to enable your device to allow installation from third party sources.
-
-1. Go to the Android Market on the phone and search for and download an app called ApkInstaller.
-
-2. Attach your device to your computer. Swipe down the notification bar at the top screen and Mount the device. The device should show up as a drive.
-
-3. Take the APK file you downloaded and copy it to anywhere on the SD Card drive.
-
-4. Open the ApkInstaller app.
-
-5. It will show the files on your SD Card. Tap the APK file to run the installer.
-
-6. Tap Install.
-
-7. Test and be sure to *log bugs* to: http://code.google.com/p/dark-nova-android/issues/list
+The beta is closed.
 
 Thanks!
+
+Dark Nova Support Minions
